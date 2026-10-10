@@ -40,6 +40,6 @@ To cite the individual manuscript, use the BibTeX block in its directory.
 
 Proprietary AI model usage, unfortunately, could not be avoided. A minimal amount of Proprietary AI, namely Claude Opus 5.1, was used to assist in debugging our open-source language model. Additionally, we used Claude Opus 5.1 to assist with compilation of `tex` files. The model has assured us all files compile correctly, and we take Anthropic's word very seriously. 
 
-Approximately $0.35 worth of tokens were spent throughout this project over the course of 2 hours. Our open-source model is cheap and capable of running locally at no significant expense
+Approximately $0.35 worth of tokens were spent throughout this project over the course of 2 hours. Our open-source model is cheap, deterministic, not trained on stolen data, and capable of running locally at no significant expense. We emphasize that unlike other ventures into automated science with AI, our slop is *ethically-produced*.
 
 
