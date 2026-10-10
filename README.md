@@ -2,7 +2,7 @@
 
 This repository contains physics manuscripts and supporting proof artifacts produced by a public, open-source model. 
 
-Unlike OpenAI, we use a public, open-source model, and unlike them, we are completely willing to share it for free. The model is the 10th entry in this collection: [preprints/0010-The-script-that-generated-this-repository-October-9-2026](preprints/0010-The-script-that-generated-this-repository-October-9-2026/).
+Unlike [OpenAI](https://github.com/openai/math/tree/main/), we use a public, open-source model, and unlike them, we are completely willing to share it for free. The model is the 10th entry in this collection: [preprints/0010-The-script-that-generated-this-repository-October-9-2026](preprints/0010-The-script-that-generated-this-repository-October-9-2026/).
 
 As part of model development, we evaluate our models on open research problems. We expanded these evaluations after performance on our existing physics evaluations saturated. Some outputs build upon earlier results produced by the models.
 
