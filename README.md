@@ -1,8 +1,8 @@
 # Readme
 
-This repository contains physics manuscripts and supporting proof artifacts produced by a public, open-source model. 
+This repository contains physics manuscripts and supporting proof artifacts produced by a public, open-source language model, with the support and endorsement of the entire physics community. These results span the entire variety of topics that everyone in the entire physics community are all interested in.
 
-Unlike [OpenAI](https://github.com/openai/math/tree/main/), we use a public, open-source model, and unlike them, we are completely willing to share it for free. The model is the 10th entry in this collection: [preprints/0010-The-script-that-generated-this-repository-October-9-2026](preprints/0010-The-script-that-generated-this-repository-October-9-2026/).
+Unlike [OpenAI](https://github.com/openai/math/tree/main/), we use a public, open-source model, and unlike them, we are completely willing to share it for free. The model is the 10th entry in this collection: [preprints/0010-The-script-that-generated-this-repository-October-9-2026](preprints/0010-The-script-that-generated-this-repository-October-9-2026/). We emphasize the importance of open-source language models. If the model is not public, then it is not science.
 
 As part of model development, we evaluate our models on open research problems. We expanded these evaluations after performance on our existing physics evaluations saturated. Some outputs build upon earlier results produced by the models.
 
