@@ -1,0 +1,191 @@
+# abstract shapes
+<Abstract> -> <MotivationSentence> <GapSentence> <MethodSentence> <ResultSentence> <ClosingSentence>
+<Abstract> -> <ContextSentence> <GapSentence> <ClaimSentence> <ComparisonSentence> <FutureSentence>
+<Abstract> -> <MotivationSentence> <MethodSentence> <MethodSentence> <ResultSentence> <ClosingSentence>
+<Abstract> -> <MotivationSentence> <GapSentence> <MethodSentence> <ResultSentence> <LimitationSentence> <ClosingSentence>
+<Abstract> -> <ContextSentence> <MotivationSentence> <ClaimSentence> <ResultSentence> <ComparisonSentence> <ClosingSentence>
+<Abstract> -> <ContextSentence> <MethodSentence> <ClaimSentence> <ComparisonSentence> <FutureSentence>
+<Abstract> -> <ContextSentence> <GapSentence> <MethodSentence> <TechnicalSentence> <ResultSentence> <ClosingSentence>
+
+# body sentences with connectives
+<BodySentence> -> <Transition> we show that <NounPhraseSingular> <VerbSingular> <AnyNounPhrase> <Qualifier>.
+<BodySentence> -> <Transition> <NounPhrasePlural> <VerbPlural> <AnyNounPhrase> <Qualifier>.
+<BodySentence> -> <Transition> the <ObservableSingular> is <PredicateAdjective> <Qualifier>.
+<BodySentence> -> <Transition> we <WeVerb> <AnyNounPhrase> using <NounPhrasePlural>.
+<BodySentence> -> <MotivationSentence>
+<BodySentence> -> <GapSentence>
+<BodySentence> -> <ComparisonSentence>
+<BodySentence> -> <LimitationSentence>
+<BodySentence> -> <HedgeSentence>
+<BodySentence> -> <DefinitionSentence>
+<BodySentence> -> <DefinitionSentence>
+<BodySentence> -> <ConditionalSentence>
+<BodySentence> -> <ContrastSentence>
+<BodySentence> -> <ObservationSentence>
+<BodySentence> -> <ObservationSentence>
+<Transition> -> moreover,
+<Transition> -> furthermore,
+<Transition> -> in addition,
+<Transition> -> notably,
+<Transition> -> importantly,
+<Transition> -> on the other hand,
+<Transition> -> conversely,
+<Transition> -> as a consequence,
+<Transition> -> consequently,
+<Transition> -> to be specific,
+<Transition> -> in practice,
+<Transition> -> interestingly,
+<Transition> -> at the same time,
+<Transition> -> in this sense,
+<Transition> -> more precisely,
+<Transition> -> crucially,
+<Transition> -> intriguingly,
+<Transition> -> as anticipated,
+<Transition> -> perhaps unsurprisingly,
+<Transition> -> to leading approximation,
+<Transition> -> in the same spirit,
+<Transition> -> taken together,
+<Transition> -> by construction,
+<Transition> -> as emphasized above,
+<Transition> -> with this in mind,
+<Transition> -> to our knowledge,
+<Transition> -> for completeness,
+<Transition> -> at a deeper level,
+<Transition> -> loosely speaking,
+<Transition> -> physically,
+
+# motivation and gaps
+<MotivationSentence> -> a precise understanding of <NounPhrasePlural> is essential for <Task> at <Collider>.
+<MotivationSentence> -> the upcoming runs of <Collider> will demand <NounPhrasePlural> at <Order>.
+<MotivationSentence> -> <NounPhrasePlural> are indispensable for <Task>, yet their <PredicateNoun> is rarely examined.
+<MotivationSentence> -> as the precision of <Collider> data improves, <NounPhrasePlural> become a limiting factor.
+<MotivationSentence> -> modern analyses at <Collider> rely heavily on <NounPhrasePlural>.
+<MotivationSentence> -> the success of <MethodPlural> in <Field> raises the question of whether <NounPhrasePlural> can be <PredicateAdjective>.
+<MotivationSentence> -> in the era of big data, <NounPhrasePlural> are more important than ever.
+<MotivationSentence> -> the community has long sought <IndefiniteNounPhrase> for <Task>.
+<MotivationSentence> -> there is growing interest in <NounPhrasePlural><Cite>.
+<MotivationSentence> -> <NounPhrasePlural> offer a unique window into <NounPhrasePlural>.
+<GapSentence> -> however, existing approaches to <Task> neglect <NounPhrasePlural>.
+<GapSentence> -> however, a systematic treatment of <NounPhrasePlural> beyond <Order> is still lacking.
+<GapSentence> -> to date, no definition of <NounPhraseSingular> is known to be <PredicateAdjective> <Qualifier>.
+<GapSentence> -> previous studies<Cite> were limited to <NounPhrasePlural> at <Order>.
+<GapSentence> -> despite their success, <MethodPlural> remain largely black boxes.
+<GapSentence> -> unfortunately, <NounPhrasePlural> are notoriously difficult to compute in the <Limit>.
+<GapSentence> -> the <PredicateNoun> of <NounPhrasePlural> has so far been taken for granted.
+<GapSentence> -> this gap is particularly acute for <Process> at <Energy>.
+<GapSentence> -> a key open question is whether <NounPhraseSingular> is <PredicateAdjective> <Qualifier>.
+<GapSentence> -> in particular, the role of <NounPhrasePlural> in <Task> remains unclear.
+
+# comparisons, hedges and limits
+<ComparisonSentence> -> compared to <NounPhrasePlural>, our approach is <ComparativeAdjective> by a factor of <SmallInteger>.
+<ComparisonSentence> -> unlike previous work<Cite>, our method does not require <NounPhrasePlural>.
+<ComparisonSentence> -> in contrast to <MethodPlural>, <NounPhraseSingular> is <PredicateAdjective> by construction.
+<ComparisonSentence> -> our results are in excellent agreement with <NounPhrasePlural><Cite>.
+<ComparisonSentence> -> the agreement with <Generator> is remarkable <Qualifier>.
+<ComparisonSentence> -> we observe a mild tension with <NounPhrasePlural> in the <Limit>.
+<ComparisonSentence> -> this is <ComparativeAdjective> than any previous <ObservableSingular> by an order of magnitude.
+<ComparativeAdjective> -> faster
+<ComparativeAdjective> -> more accurate
+<ComparativeAdjective> -> more robust
+<ComparativeAdjective> -> more interpretable
+<ComparativeAdjective> -> cheaper
+<ComparativeAdjective> -> more stable
+<ComparativeAdjective> -> more expressive
+<ComparativeAdjective> -> more efficient
+<HedgeSentence> -> we stress that this conclusion holds only <Qualifier>.
+<HedgeSentence> -> a more careful treatment of <NounPhrasePlural> is left to future work.
+<HedgeSentence> -> we expect <NounPhrasePlural> to modify this picture only mildly.
+<HedgeSentence> -> this assumption is well motivated <Qualifier>.
+<HedgeSentence> -> although we focus on <Process>, the argument is expected to hold more generally.
+<HedgeSentence> -> some care is required in the <Limit>.
+<HedgeSentence> -> the numerical impact of <NounPhrasePlural> appears to be small.
+<HedgeSentence> -> it is plausible that <NounPhraseSingular> is <PredicateAdjective> <Qualifier>, although we have not shown this.
+<LimitationSentence> -> our analysis neglects <NounPhrasePlural>, which may become relevant at <Collider>.
+<LimitationSentence> -> the main limitation of this approach is its reliance on <NounPhrasePlural>.
+<LimitationSentence> -> extending the method beyond <Order> is conceptually straightforward but technically demanding.
+<LimitationSentence> -> we have not attempted to quantify <NounPhrasePlural>.
+<LimitationSentence> -> the treatment of <NounPhrasePlural> is admittedly heuristic.
+<FutureSentence> -> extending this framework to <NounPhrasePlural> is an exciting direction for future work.
+<FutureSentence> -> in future work, we plan to apply <NounPhraseSingular> to <Process>.
+<FutureSentence> -> it would be interesting to combine this approach with <MethodPlural>.
+<FutureSentence> -> we leave the study of <NounPhrasePlural> at <Order> to future work.
+<FutureSentence> -> a natural next step is to <WeVerb> <AnyNounPhrase> <Qualifier>.
+<FutureSentence> -> we hope this work inspires further research into <NounPhrasePlural>.
+<ClosingSentence> -> <FutureSentence>
+<ClosingSentence> -> <ComparisonSentence>
+
+# definitions, conditionals and observations
+<DefinitionSentence> -> we define <NounPhraseSingular> as the <ObservableSingular> of <NounPhrasePlural>.
+<DefinitionSentence> -> here, $<MathVariable>$ denotes the <ObservableSingular>.
+<DefinitionSentence> -> throughout, we denote by $<MathVariable>$ the <Adjective> <ObservableSingular>.
+<DefinitionSentence> -> for brevity, we refer to <NounPhrasePlural> as <MethodPlural>.
+<DefinitionSentence> -> by <NounPhraseSingular> we mean <IndefiniteNounPhrase> that is <PredicateAdjective> <Qualifier>.
+<DefinitionSentence> -> we call <NounPhraseSingular> <PredicateAdjective> if it <VerbSingular> <AnyNounPhrase>.
+<DefinitionSentence> -> following <NounPhraseSingular><Cite>, we normalize <NounPhrasePlural> to unity.
+<ConditionalSentence> -> if <NounPhraseSingular> is <PredicateAdjective>, then <NounPhrasePlural> <VerbPlural> <AnyNounPhrase>.
+<ConditionalSentence> -> provided that <NounPhrasePlural> are <PredicateAdjective>, <NounPhraseSingular> <VerbSingular> <AnyNounPhrase>.
+<ConditionalSentence> -> as long as $<MathVariable>$ is small, <NounPhraseSingular> is <PredicateAdjective>.
+<ConditionalSentence> -> whenever <NounPhrasePlural> dominate, <NounPhraseSingular> <VerbSingular> <AnyNounPhrase>.
+<ConditionalSentence> -> unless <NounPhrasePlural> are included, <NounPhraseSingular> is not <PredicateAdjective>.
+<ContrastSentence> -> while <NounPhrasePlural> <VerbPlural> <AnyNounPhrase>, <NounPhraseSingular> <VerbSingular> <AnyNounPhrase>.
+<ContrastSentence> -> whereas <NounPhraseSingular> is <PredicateAdjective>, <NounPhrasePlural> are not.
+<ContrastSentence> -> although <NounPhrasePlural> are <PredicateAdjective>, <NounPhraseSingular> is not.
+<ContrastSentence> -> rather than <WeVerb> <AnyNounPhrase>, we <WeVerb> <AnyNounPhrase>.
+<ContrastSentence> -> instead of relying on <NounPhrasePlural>, we exploit <NounPhrasePlural>.
+<ObservationSentence> -> one immediately sees that <NounPhraseSingular> <VerbSingular> <AnyNounPhrase>.
+<ObservationSentence> -> this behavior is characteristic of <NounPhrasePlural> in the <Limit>.
+<ObservationSentence> -> the origin of this effect can be traced back to <NounPhrasePlural>.
+<ObservationSentence> -> this observation is the key insight of this paper.
+<ObservationSentence> -> at first sight, this result may seem counterintuitive.
+<ObservationSentence> -> the physical picture is as follows: <NounPhrasePlural> <VerbPlural> <AnyNounPhrase>.
+<ObservationSentence> -> this is reminiscent of <NounPhrasePlural> in <Field>.
+<ObservationSentence> -> the size of this effect is set by $<MathAtom>$.
+<ObservationSentence> -> the residual dependence on $<MathVariable>$ is mild.
+
+# relative clauses inside claims
+<ClaimSentence> -> we show that <NounPhraseSingular>, which <VerbSingular> <AnyNounPhrase>, is <PredicateAdjective> <Qualifier>.
+<ClaimSentence> -> we find that <NounPhrasePlural>, which are usually neglected, <VerbPlural> <AnyNounPhrase>.
+<ClaimSentence> -> our main result is that <NounPhraseSingular> <VerbSingular> <AnyNounPhrase> <Qualifier>.
+<ClaimSentence> -> we establish that <NounPhrasePlural> are <PredicateAdjective> if and only if <NounPhraseSingular> is <PredicateAdjective>.
+<ClaimSentence> -> it follows that <NounPhraseSingular> is <PredicateAdjective> <Qualifier>.
+<ClaimSentence> -> as a byproduct, we obtain <IndefiniteNounPhrase> for <Task>.
+<MethodSentence> -> our strategy is to <WeVerb> <AnyNounPhrase> before <Verbing> <AnyNounPhrase>.
+<MethodSentence> -> after <Verbing> <AnyNounPhrase>, we <WeVerb> <AnyNounPhrase> <Qualifier>.
+<MethodSentence> -> by <Verbing> <AnyNounPhrase>, we are able to <WeVerb> <AnyNounPhrase>.
+<MethodSentence> -> we achieve this by <Verbing> <AnyNounPhrase> with <IndefiniteNounPhrase>.
+<MethodSentence> -> the key idea is to <WeVerb> <AnyNounPhrase> in the <Limit>.
+<MethodSentence> -> we work in the framework of <IndefiniteNounPhrase><Cite>.
+<MethodSentence> -> the training data consist of <EventCount> simulated events generated with <Generator>.
+<ResultSentence> -> the resulting <ObservableSingular> is <PredicateAdjective> <Qualifier>, as expected.
+<ResultSentence> -> we observe a clear improvement over <NounPhrasePlural> <Qualifier>.
+<ResultSentence> -> the <ObservableSingular> exhibits a striking dependence on $<MathVariable>$.
+<ResultSentence> -> this leads to a reduction of the theoretical uncertainty by <Percent>.
+<ResultSentence> -> a <Adjective> <ObservableSingular> emerges at <Order>.
+<ResultSentence> -> the area under the curve reaches 0.9<SmallInteger><SmallInteger> for <Task>.
+<Verbing> -> computing
+<Verbing> -> resumming
+<Verbing> -> deriving
+<Verbing> -> calibrating
+<Verbing> -> unfolding
+<Verbing> -> reweighting
+<Verbing> -> factorizing
+<Verbing> -> sampling
+<Verbing> -> training
+<Verbing> -> symmetrizing
+<Verbing> -> regularizing
+<Verbing> -> renormalizing
+<Verbing> -> leveraging
+<Verbing> -> marginalizing over
+<Verbing> -> integrating out
+<Verbing> -> expanding
+
+# richer noun phrases
+<NounPhraseSingular> -> the interplay between <NounPhrasePlural> and <NounPhrasePlural>
+<NounPhraseSingular> -> the <Adjective> <ObservableSingular> of <Process>
+<NounPhraseSingular> -> the so-called <Adjective> <ObservableSingular>
+<NounPhrasePlural> -> <Adjective> <ObservablePlural> of <Process>
+<NounPhrasePlural> -> <MethodPlural> trained on <Dataset>
+<NounPhraseSingular> -> a family of <Adjective> <ObservablePlural>
+<IndefiniteNounPhrase> -> a <Adjective>, <Adjective> <MethodSingular>
+<IndefiniteNounPhrase> -> a <MethodSingular> trained on <Dataset>
+<IndefiniteNounPhrase> -> a <Adjective> generalization of the <ObservableSingular>

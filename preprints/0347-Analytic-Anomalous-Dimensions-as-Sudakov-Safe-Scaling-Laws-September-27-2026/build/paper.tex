@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{Analytic Anomalous Dimensions as Sudakov-Safe Scaling Laws}
+\author{The Physics Community}
+\date{September 27, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+A precise understanding of Monte Carlo event generators trained on
+Herwig samples is essential for event generation at RHIC. However,
+existing approaches to b-tagging neglect scaling laws trained on Pythia
+samples. We propose a novel, unified framework that bridges the gap
+between top-quark physics and neutrino physics. The resulting embedding
+dimension is numerically stable in a fully data-driven way, as expected.
+Our findings open new avenues for top tagging at HERA.
+\end{abstract}
+\tableofcontents
+\input{sections/00-introduction}
+\input{sections/01-comparison-analytic-resummation}
+\input{sections/02-symbolic-regression-pipeline}
+\input{sections/03-comparison-herwig}
+\input{sections/04-conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}

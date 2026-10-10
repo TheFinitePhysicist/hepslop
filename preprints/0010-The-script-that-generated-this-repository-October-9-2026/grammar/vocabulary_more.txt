@@ -1,0 +1,454 @@
+# more observables
+<ObservableSingular> -> energy-energy correlation
+<ObservableSingular> -> projected energy correlator
+<ObservableSingular> -> celestial energy correlator
+<ObservableSingular> -> Lund multiplicity
+<ObservableSingular> -> primary Lund plane density
+<ObservableSingular> -> jet shape
+<ObservableSingular> -> soft drop mass
+<ObservableSingular> -> momentum sharing fraction
+<ObservableSingular> -> groomed radius
+<ObservableSingular> -> splitting angle
+<ObservableSingular> -> hemisphere mass difference
+<ObservableSingular> -> total jet broadening
+<ObservableSingular> -> wide jet broadening
+<ObservableSingular> -> JADE three-jet rate
+<ObservableSingular> -> Durham jet rate
+<ObservableSingular> -> transverse thrust
+<ObservableSingular> -> azimuthal decorrelation
+<ObservableSingular> -> Collins-Soper kernel
+<ObservableSingular> -> rapidity anomalous dimension
+<ObservableSingular> -> soft anomalous dimension
+<ObservableSingular> -> collinear anomalous dimension
+<ObservableSingular> -> beta function
+<ObservableSingular> -> strong coupling constant
+<ObservableSingular> -> Landau pole
+<ObservableSingular> -> renormalon ambiguity
+<ObservableSingular> -> hadronization correction
+<ObservableSingular> -> non-perturbative shape function
+<ObservableSingular> -> parton distribution function
+<ObservableSingular> -> transverse-momentum-dependent distribution
+<ObservableSingular> -> generalized parton distribution
+<ObservableSingular> -> Mellin moment
+<ObservableSingular> -> Laplace transform
+<ObservableSingular> -> cumulative distribution
+<ObservableSingular> -> differential cross section
+<ObservableSingular> -> fiducial cross section
+<ObservableSingular> -> inclusive cross section
+<ObservableSingular> -> K-factor
+<ObservableSingular> -> scale uncertainty
+<ObservableSingular> -> nuisance parameter
+<ObservableSingular> -> receiver operating characteristic
+<ObservableSingular> -> area under the curve
+<ObservableSingular> -> significance improvement characteristic
+<ObservableSingular> -> mutual information
+<ObservableSingular> -> Kullback-Leibler divergence
+<ObservableSingular> -> Fisher information
+<ObservableSingular> -> profile likelihood
+<ObservableSingular> -> local significance
+<ObservableSingular> -> global significance
+<ObservableSingular> -> look-elsewhere effect
+<ObservableSingular> -> latent space
+<ObservableSingular> -> loss landscape
+<ObservableSingular> -> attention map
+<ObservableSingular> -> embedding dimension
+<ObservableSingular> -> neural tangent kernel
+<ObservableSingular> -> calibration curve
+<ObservableSingular> -> event weight distribution
+<ObservableSingular> -> unitarity triangle
+<ObservableSingular> -> optical theorem
+<ObservableSingular> -> Ward identity
+<ObservableSingular> -> Slavnov-Taylor identity
+<ObservableSingular> -> Landau singularity
+<ObservableSingular> -> symbol alphabet
+<ObservableSingular> -> coproduct
+<ObservableSingular> -> canonical differential equation
+<ObservableSingular> -> Baikov representation
+<ObservableSingular> -> Feynman parametrization
+<ObservableSingular> -> Mellin-Barnes representation
+<ObservableSingular> -> leading singularity
+<ObservableSingular> -> cut integral
+<ObservableSingular> -> Regge trajectory
+<ObservableSingular> -> Glauber phase
+<ObservableSingular> -> factorization violation
+<ObservablePlural> -> energy-energy correlations
+<ObservablePlural> -> projected energy correlators
+<ObservablePlural> -> celestial correlators
+<ObservablePlural> -> jet shapes
+<ObservablePlural> -> soft drop observables
+<ObservablePlural> -> jet rates
+<ObservablePlural> -> parton distribution functions
+<ObservablePlural> -> TMDs
+<ObservablePlural> -> Mellin moments
+<ObservablePlural> -> cumulative distributions
+<ObservablePlural> -> differential cross sections
+<ObservablePlural> -> K-factors
+<ObservablePlural> -> scale variations
+<ObservablePlural> -> theory uncertainties
+<ObservablePlural> -> ROC curves
+<ObservablePlural> -> loss landscapes
+<ObservablePlural> -> attention maps
+<ObservablePlural> -> embeddings
+<ObservablePlural> -> training curves
+<ObservablePlural> -> symbol letters
+<ObservablePlural> -> canonical differential equations
+<ObservablePlural> -> leading singularities
+<ObservablePlural> -> cut integrals
+<ObservablePlural> -> Glauber modes
+<ObservablePlural> -> soft modes
+<ObservablePlural> -> collinear modes
+<ObservablePlural> -> ultrasoft modes
+<ObservablePlural> -> zero-bin subtractions
+<ObservablePlural> -> renormalons
+<ObservablePlural> -> instantons
+<ObservablePlural> -> sphalerons
+<ObservablePlural> -> Landau poles
+<ObservablePlural> -> Ward identities
+<ObservablePlural> -> Regge trajectories
+<ObservablePlural> -> unitarity cuts
+<ObservablePlural> -> Lund planes
+<ObservablePlural> -> soft drop masses
+<ObservablePlural> -> hemisphere masses
+<ObservablePlural> -> rapidity gaps
+<ObservablePlural> -> Higgs couplings
+<ObservablePlural> -> top-quark decays
+<ObservablePlural> -> heavy-flavor jets
+<ObservablePlural> -> pileup particles
+<ObservablePlural> -> calorimeter showers
+<ObservablePlural> -> tracking detectors
+<ObservablePlural> -> Monte Carlo samples
+<ObservablePlural> -> synthetic events
+<ObservablePlural> -> benchmark datasets
+<ObservablePlural> -> leaderboards
+
+# more methods
+<MethodSingular> -> conditional normalizing flow
+<MethodSingular> -> continuous normalizing flow
+<MethodSingular> -> flow matching model
+<MethodSingular> -> score-based generative model
+<MethodSingular> -> point cloud transformer
+<MethodSingular> -> ParticleNet architecture
+<MethodSingular> -> message-passing neural network
+<MethodSingular> -> equivariant graph network
+<MethodSingular> -> set transformer
+<MethodSingular> -> autoregressive model
+<MethodSingular> -> masked autoencoder
+<MethodSingular> -> vision transformer
+<MethodSingular> -> reinforcement learning agent
+<MethodSingular> -> Bayesian neural network
+<MethodSingular> -> Gaussian process
+<MethodSingular> -> boosted decision tree
+<MethodSingular> -> symbolic regression pipeline
+<MethodSingular> -> physics-informed neural network
+<MethodSingular> -> neural ordinary differential equation
+<MethodSingular> -> neural scaling law
+<MethodSingular> -> classifier-based reweighting
+<MethodSingular> -> classifier-free guidance scheme
+<MethodSingular> -> parton-level event generator
+<MethodSingular> -> dipole shower
+<MethodSingular> -> antenna shower
+<MethodSingular> -> angular-ordered shower
+<MethodSingular> -> sector shower
+<MethodSingular> -> NLO matching scheme
+<MethodSingular> -> multi-jet merging procedure
+<MethodSingular> -> qT subtraction scheme
+<MethodSingular> -> N-jettiness slicing scheme
+<MethodSingular> -> local analytic sector subtraction
+<MethodSingular> -> nested soft-collinear subtraction
+<MethodSingular> -> Laporta algorithm
+<MethodSingular> -> numerical unitarity method
+<MethodSingular> -> generalized unitarity approach
+<MethodSingular> -> bootstrap program
+<MethodSingular> -> conformal bootstrap
+<MethodSingular> -> lattice simulation
+<MethodSingular> -> heavy-quark effective theory
+<MethodSingular> -> chiral perturbation theory
+<MethodSingular> -> large-N expansion
+<MethodSingular> -> saddle-point approximation
+<MethodSingular> -> eikonal approximation
+<MethodSingular> -> profile likelihood fit
+<MethodSingular> -> template fit
+<MethodSingular> -> neural simulation-based inference method
+<MethodSingular> -> anomaly score
+<MethodSingular> -> tag-and-probe method
+<MethodSingular> -> retrieval-augmented language model
+<MethodSingular> -> chatbot
+<MethodPlural> -> conditional normalizing flows
+<MethodPlural> -> flow matching models
+<MethodPlural> -> score-based generative models
+<MethodPlural> -> point cloud transformers
+<MethodPlural> -> message-passing neural networks
+<MethodPlural> -> equivariant graph networks
+<MethodPlural> -> set transformers
+<MethodPlural> -> autoregressive models
+<MethodPlural> -> Bayesian neural networks
+<MethodPlural> -> Gaussian processes
+<MethodPlural> -> boosted decision trees
+<MethodPlural> -> physics-informed neural networks
+<MethodPlural> -> neural ordinary differential equations
+<MethodPlural> -> dipole showers
+<MethodPlural> -> antenna showers
+<MethodPlural> -> subtraction schemes
+<MethodPlural> -> slicing methods
+<MethodPlural> -> unitarity methods
+<MethodPlural> -> bootstrap methods
+<MethodPlural> -> lattice simulations
+<MethodPlural> -> effective theories
+<MethodPlural> -> saddle-point approximations
+<MethodPlural> -> template fits
+<MethodPlural> -> anomaly scores
+<MethodPlural> -> reinforcement learning agents
+<MethodPlural> -> chatbots
+<MethodPlural> -> scaling laws
+
+# more modifiers
+<Adjective> -> next-to-leading-logarithmic
+<Adjective> -> NNLL-accurate
+<Adjective> -> NLO-matched
+<Adjective> -> massive
+<Adjective> -> massless
+<Adjective> -> quark-initiated
+<Adjective> -> gluon-initiated
+<Adjective> -> heavy-flavor
+<Adjective> -> light-flavor
+<Adjective> -> hadron-level
+<Adjective> -> parton-level
+<Adjective> -> detector-level
+<Adjective> -> particle-level
+<Adjective> -> track-based
+<Adjective> -> calorimeter-based
+<Adjective> -> pileup-robust
+<Adjective> -> Lorentz-invariant
+<Adjective> -> rotationally symmetric
+<Adjective> -> boost-invariant
+<Adjective> -> IRC-safe
+<Adjective> -> Sudakov-suppressed
+<Adjective> -> Glauber-enhanced
+<Adjective> -> rapidity-regulated
+<Adjective> -> zero-bin-subtracted
+<Adjective> -> renormalon-free
+<Adjective> -> scheme-independent
+<Adjective> -> gauge-covariant
+<Adjective> -> BRST-invariant
+<Adjective> -> unitarity-preserving
+<Adjective> -> analytic
+<Adjective> -> semi-analytic
+<Adjective> -> numerical
+<Adjective> -> closed-form
+<Adjective> -> exact
+<Adjective> -> approximate
+<Adjective> -> asymptotic
+<Adjective> -> non-perturbative
+<Adjective> -> perturbative
+<Adjective> -> stochastic
+<Adjective> -> deterministic
+<Adjective> -> learnable
+<Adjective> -> trainable
+<Adjective> -> pretrained
+<Adjective> -> fine-tuned
+<Adjective> -> zero-shot
+<Adjective> -> few-shot
+<Adjective> -> foundation-scale
+<Adjective> -> transformer-based
+<Adjective> -> attention-based
+<Adjective> -> graph-based
+<Adjective> -> flow-based
+<Adjective> -> diffusion-based
+<Adjective> -> contrastive
+<Adjective> -> generative
+<Adjective> -> discriminative
+<Adjective> -> Bayesian
+<Adjective> -> frequentist
+<Adjective> -> likelihood-free
+<Adjective> -> simulation-based
+<Adjective> -> interpretable-by-design
+<Adjective> -> explainable
+<Adjective> -> trustworthy
+<Adjective> -> state-of-the-art
+<Adjective> -> novel
+<Adjective> -> holistic
+<Adjective> -> versatile
+<Adjective> -> principled
+<Adjective> -> elegant
+<PredicateAdjective> -> Lorentz invariant
+<PredicateAdjective> -> boost invariant
+<PredicateAdjective> -> scheme independent
+<PredicateAdjective> -> renormalon free
+<PredicateAdjective> -> pileup robust
+<PredicateAdjective> -> exactly solvable
+<PredicateAdjective> -> trivially parallelizable
+<PredicateAdjective> -> differentiable
+<PredicateAdjective> -> fully automated
+<PredicateAdjective> -> surprisingly simple
+<PredicateAdjective> -> remarkably stable
+<PredicateAdjective> -> embarrassingly simple
+<PredicateAdjective> -> unitary
+<PredicateAdjective> -> causal
+<PredicateAdjective> -> convex
+<PredicateAdjective> -> monotonic
+<PredicateAdjective> -> logarithmically divergent
+<PredicateAdjective> -> power suppressed
+<PredicateAdjective> -> state of the art
+<PredicateAdjective> -> competitive with human experts
+
+# more qualifiers
+<Qualifier> -> at the percent level
+<Qualifier> -> to next-to-next-to-leading logarithmic accuracy
+<Qualifier> -> in the threshold limit
+<Qualifier> -> in the soft limit
+<Qualifier> -> in the back-to-back limit
+<Qualifier> -> beyond leading power
+<Qualifier> -> beyond the eikonal approximation
+<Qualifier> -> beyond the strongly ordered limit
+<Qualifier> -> for both quark and gluon jets
+<Qualifier> -> for jets with $p_T > 500$ GeV
+<Qualifier> -> for any number of emissions
+<Qualifier> -> for arbitrary jet algorithms
+<Qualifier> -> for any infrared and collinear safe observable
+<Qualifier> -> in dimensional regularization
+<Qualifier> -> in the $\overline{\rm MS}$ scheme
+<Qualifier> -> in the conformal limit
+<Qualifier> -> in the planar limit
+<Qualifier> -> in Feynman gauge
+<Qualifier> -> in light-cone gauge
+<Qualifier> -> at the amplitude level
+<Qualifier> -> on an event-by-event basis
+<Qualifier> -> without any additional assumptions
+<Qualifier> -> without retraining
+<Qualifier> -> with minimal computational overhead
+<Qualifier> -> with a single forward pass
+<Qualifier> -> on a single GPU
+<Qualifier> -> in a fully data-driven way
+<Qualifier> -> after unfolding
+<Qualifier> -> at detector level
+<Qualifier> -> in a model-agnostic fashion
+<Qualifier> -> to arbitrary precision
+<Qualifier> -> in principle
+
+# more verbs
+<VerbSingular> -> generalizes
+<VerbSingular> -> approximates
+<VerbSingular> -> dominates over
+<VerbSingular> -> exponentiates
+<VerbSingular> -> renormalizes
+<VerbSingular> -> regularizes
+<VerbSingular> -> smooths
+<VerbSingular> -> suppresses
+<VerbSingular> -> enhances
+<VerbSingular> -> mixes with
+<VerbSingular> -> couples to
+<VerbSingular> -> probes
+<VerbSingular> -> distinguishes
+<VerbSingular> -> disentangles
+<VerbSingular> -> predicts
+<VerbSingular> -> learns
+<VerbSingular> -> supersedes
+<VerbSingular> -> subsumes
+<VerbSingular> -> transcends
+<VerbPlural> -> generalize
+<VerbPlural> -> approximate
+<VerbPlural> -> dominate over
+<VerbPlural> -> exponentiate
+<VerbPlural> -> renormalize
+<VerbPlural> -> regularize
+<VerbPlural> -> smooth
+<VerbPlural> -> suppress
+<VerbPlural> -> enhance
+<VerbPlural> -> mix with
+<VerbPlural> -> couple to
+<VerbPlural> -> probe
+<VerbPlural> -> distinguish
+<VerbPlural> -> disentangle
+<VerbPlural> -> predict
+<VerbPlural> -> learn
+<VerbPlural> -> supersede
+<VerbPlural> -> subsume
+<VerbPlural> -> transcend
+<WeVerb> -> benchmark
+<WeVerb> -> validate
+<WeVerb> -> generalize
+<WeVerb> -> exponentiate
+<WeVerb> -> match
+<WeVerb> -> merge
+<WeVerb> -> fit
+<WeVerb> -> profile
+<WeVerb> -> marginalize over
+<WeVerb> -> distill
+<WeVerb> -> pretrain
+<WeVerb> -> fine-tune
+<WeVerb> -> interpret
+<WeVerb> -> visualize
+<WeVerb> -> disentangle
+<WeVerb> -> revisit
+<WeVerb> -> reformulate
+<WeVerb> -> bootstrap
+
+# more context
+<Field> -> soft-collinear effective theory
+<Field> -> lattice QCD
+<Field> -> heavy-ion physics
+<Field> -> flavor physics
+<Field> -> Higgs physics
+<Field> -> top-quark physics
+<Field> -> neutrino physics
+<Field> -> dark matter phenomenology
+<Field> -> physics beyond the Standard Model
+<Field> -> the amplitudes program
+<Field> -> conformal field theory
+<Field> -> string theory
+<Field> -> quantum computing
+<Field> -> optimal transport
+<Field> -> statistical learning theory
+<Field> -> large language model research
+<Field> -> the AI revolution
+<Process> -> Higgs boson production in gluon fusion
+<Process> -> diphoton production
+<Process> -> Z plus jet production
+<Process> -> W plus jet production
+<Process> -> four-top production
+<Process> -> heavy-ion collisions
+<Process> -> semi-inclusive deep inelastic scattering
+<Process> -> photoproduction
+<Process> -> B meson decays
+<Process> -> tau lepton decays
+<Process> -> trijet production
+<Process> -> double Higgs production
+<Collider> -> the Future Circular Collider
+<Collider> -> the CEPC
+<Collider> -> a muon collider
+<Collider> -> RHIC
+<Collider> -> HERA
+<Collider> -> the Tevatron
+<Collider> -> Belle II
+<Limit> -> eikonal limit
+<Limit> -> Regge limit
+<Limit> -> planar limit
+<Limit> -> massless limit
+<Limit> -> heavy-quark limit
+<Limit> -> small-$x$ limit
+<Limit> -> large-$x$ limit
+<Limit> -> infinite-width limit
+<Limit> -> large-data limit
+<Limit> -> zero-temperature limit
+<Task> -> W tagging
+<Task> -> Higgs tagging
+<Task> -> b-tagging
+<Task> -> jet energy calibration
+<Task> -> particle identification
+<Task> -> track reconstruction
+<Task> -> fast simulation
+<Task> -> event reconstruction
+<Task> -> theory uncertainty estimation
+<Task> -> PDF fitting
+<Task> -> amplitude reduction
+<Task> -> integral evaluation
+<Task> -> parameter estimation
+<Task> -> model discovery
+<Task> -> scientific discovery
+<Task> -> automated theorem proving
+<Dataset> -> the JetClass dataset
+<Dataset> -> the top tagging benchmark
+<Dataset> -> the quark/gluon dataset
+<Dataset> -> CMS Open Data at 13 TeV
+<Dataset> -> simulated FCC data
+<Dataset> -> the Dark Machines dataset

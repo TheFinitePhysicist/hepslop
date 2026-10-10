@@ -1,0 +1,17 @@
+# [COOKIE: Contrastive One-Loop Optimal Kernel-Based Infrared-Safe Emissions](paper.pdf)
+
+**Author:** The Physics Community
+
+**Date:** September 27, 2026
+
+## Citation
+
+```bibtex
+@misc{TPC:1619-COOKIE-Contrastive-One-Loop-Optimal-Kernel-Based-Infrared-Safe-Emissions-September-27-2026,
+  author = {{The Physics Community}},
+  title = {{COOKIE: Contrastive One-Loop Optimal Kernel-Based Infrared-Safe Emissions}},
+  howpublished = {hepslop preprint
+                  \href{https://github.com/TheFinitePhysicist/hepslop/blob/main/preprints/1619-COOKIE-Contrastive-One-Loop-Optimal-Kernel-Based-Infrared-Safe-Emissions-September-27-2026/paper.pdf}{TPC:1619-COOKIE-Contrastive-One-Loop-Optimal-Kernel-Based-Infrared-Safe-Emissions-September-27-2026}},
+  year = {2026}
+}
+```

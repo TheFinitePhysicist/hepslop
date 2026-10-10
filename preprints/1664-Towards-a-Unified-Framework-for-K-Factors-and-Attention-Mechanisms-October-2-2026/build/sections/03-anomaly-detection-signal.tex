@@ -1,0 +1,29 @@
+\section{Anomaly detection in the signal region}\label{sec:anomaly-detection-signal}
+
+As is well known, the Collins-Soper kernel of fine-tuned renormalization
+group equations is trivially parallelizable in the back-to-back limit.
+Instead of relying on Sudakov-safe message-passing neural networks, we
+exploit slicing methods trained on the quark/gluon dataset. We fix
+$\alpha_s(m_Z) = 0.118$ and run the coupling at two loops.
+
+\begin{align}
+  F(z) &= {x}^{n} (1 - \tau)^{4} \nonumber \\
+  &\quad + {x}^{2} (1 - \tau)^{3} + \mathcal{O}(\as^3) \label{eq:2}
+\end{align}
+
+\begin{equation}
+  \mathcal{S}(\tau, \mu) = \int \dPhi_{4} \, |\mathcal{M}|^2 \, \delta(x - \hat{x}) + \mathcal{O}(\as^{2})
+  \label{eq:3}
+\end{equation}
+
+\begin{equation}
+  R(z) = \frac{\CA}{2} \Pqq(z) \log\frac{\muR^2}{Q^2}
+  \label{eq:5}
+\end{equation}
+
+\begin{itemize}
+  \item The area under the curve reaches 0.934 for jet energy calibration.
+  \item The network is trained with Adam for 500 epochs on $10^6$ events.
+  \item This leads to a reduction of the theoretical uncertainty by two percent.
+\end{itemize}
+

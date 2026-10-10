@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{Massless Anomalous Dimensions and Calorimeter-Based Lattice Simulations: The Normalized Limit}
+\author{The Physics Community}
+\date{September 28, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+With the advent of optimal transport solvers, research on collider
+phenomenology has entered a new era. However, existing approaches to
+particle identification neglect the energy correlators of the latent
+space. We construct the approximate fragmentation function and learn the
+qT subtraction scheme on a single GPU. Each event is represented as a
+set of template fits trained on the top tagging benchmark. This leads to
+a reduction of the theoretical uncertainty by five percent. This unlocks
+the full potential of antenna showers for b-tagging.
+\end{abstract}
+\tableofcontents
+\input{sections/introduction}
+\input{sections/interpretability-eikonal-limit}
+\input{sections/numerical-results}
+\input{sections/conclusions}
+\input{sections/05-appendix}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

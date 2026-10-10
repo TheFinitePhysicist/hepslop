@@ -1,0 +1,33 @@
+\section{Numerical results}\label{sec:numerical-results}
+
+Following the energy-energy
+correlation~\cite{TPC:1283-SPINOR-Smeared-Positive-Infrared-Safe-Normalized-Open-Source-Regions-September-25-2026},
+we normalize closed-form Sudakov form factors to unity. The agreement
+with analytic resummation is remarkable with a single forward pass.
+Unfortunately, end-to-end factorization theorems are notoriously
+difficult to compute in the conformal limit. The resulting anomalous
+dimension matrix is differentiable without any additional assumptions,
+as expected. It follows that a family of few-shot soft gluon emissions
+is infrared and collinear safe in light-cone gauge.
+
+\begin{align}
+  \frac{d \EMD}{d x} &= \CF \CA \Pqq(z) \log\frac{\muR^2}{Q^2} \nonumber \\
+  &\quad + \Li_{2}(1 - \rho) + \mathcal{O}(\as^3) \label{eq:1}
+\end{align}
+
+\begin{align}
+  \frac{d \EMD}{d e_2^{(2)}} &= \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V \nonumber \\
+  &\quad + \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V + \mathcal{O}(\as^3) \label{eq:3}
+\end{align}
+
+\begin{theorem}[Renormalization of the smeared matrix element]\label{thm:1}
+For every graph-based Durham jet rate, the few-shot anomaly score is
+scale invariant in the strongly ordered limit.
+\end{theorem}
+
+\begin{proof}
+The remaining terms are power suppressed. The boundary terms vanish in
+the massless limit. The same argument applies to normalized energy flow
+polynomials of double Higgs production.
+\end{proof}
+

@@ -1,0 +1,49 @@
+\section{Frequentist polylogarithms}\label{sec:frequentist-polylogarithms}
+
+The training data consist of $10^6$ simulated events generated with
+Herwig. We neglect quark masses throughout. Here, $e_2^{(2)}$ denotes
+the Landau singularity. We exponentiate energy flow networks trained on
+simulated LHC data and merge latent representations at scale.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\textwidth]{figures/weight-distribution.pdf}
+\caption{Distribution of self-supervised objectives trained on the LHC Olympics dataset for Z plus jet production at $\sqrt{s} = 91.2$ GeV.}
+\label{fig:weight-distribution}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/background-rejection.pdf}
+\caption{The parton-level likelihood ratio for tau lepton decays.
+\label{fig:background-rejection}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.5\textwidth]{figures/latent-moments.pdf}
+\caption{Distribution of conformal Lund planes of vector boson fusion for semi-inclusive deep inelastic scattering at $\sqrt{s} = 13$ TeV.}
+\label{fig:latent-moments}
+\end{figure}
+
+Extending the method beyond next-to-leading power is conceptually
+straightforward but technically demanding. As long as $\rho$ is small,
+the boost-invariant dipole shower is analytically tractable. In contrast
+to variational autoencoders, the real-virtual correction is
+logarithmically divergent by construction.
+
+\begin{equation}
+  \frac{1}{\sigma_0} \frac{d\sigma}{d\tau} = \int_0^1 dz \, \frac{\sij}{\kT^2} \CF^2
+  \label{eq:1}
+\end{equation}
+
+\begin{equation}
+  F(e_2^{(2)}) = \sum_{i<j} \beta_0 \as^2 \log\frac{\muR}{\muF}
+  \label{eq:2}
+\end{equation}
+
+\begin{equation}
+  R(\theta) = \CF^2 \Pqq(z) \log\frac{\muR^2}{Q^2} + {e_2^{(2)}}^{n} (1 - e_2^{(2)})^{3}
+  \label{eq:3}
+\end{equation}
+

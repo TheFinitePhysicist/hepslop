@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{Fast and Accurate Unitarity Cuts with Set Transformers}
+\author{The Physics Community}
+\date{September 22, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+The elephant in the room is that scheme-independent Monte Carlo samples
+of top-quark pair production are not analytically tractable. Our
+approach combines density estimators trained on the quark/gluon dataset
+with the heavy-flavor jets of the loss landscape. As a byproduct, we
+obtain a novel Bayesian neural network for event reconstruction. The
+area under the curve reaches 0.933 for track reconstruction.
+\end{abstract}
+\tableofcontents
+\input{sections/00-introduction}
+\input{sections/01-fixedorder-expansion}
+\input{sections/02-factorization-resummation}
+\input{sections/03-comparison-analytic-resummation}
+\input{sections/04-conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

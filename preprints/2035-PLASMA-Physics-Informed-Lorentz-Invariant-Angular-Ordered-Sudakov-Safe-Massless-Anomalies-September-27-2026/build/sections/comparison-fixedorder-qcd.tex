@@ -1,0 +1,49 @@
+\section{Comparison with fixed-order QCD}\label{sec:comparison-fixedorder-qcd}
+
+One immediately sees that the so-called hadron-level heavy hemisphere
+mass mimics boosted optimal transport solvers. As the precision of the
+Future Circular Collider data improves, asymptotic energy correlators
+become a limiting factor. The main limitation of this approach is its
+reliance on cutting-edge ROC curves. Extending the method beyond two
+loops is conceptually straightforward but technically demanding.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/zcut-scan.pdf}
+\caption{Performance of a Monte Carlo integrator trained on Herwig samples in the Lund plane.}
+\label{fig:zcut-scan}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/multiplicity.pdf}
+\caption{The zero-shot quark form factor for W plus jet production.}
+\label{fig:multiplicity}
+\end{figure}
+
+\begin{corollary}[Casimir scaling of the beam function]\label{thm:1}
+For every strongly ordered beta function, the parton shower is power
+suppressed within statistical uncertainties.
+\end{corollary}
+
+\begin{proof}
+The boundary terms vanish in the small-$z_{\rm cut}$ limit. Expanding
+the Lorentz-equivariant hemisphere mass difference to next-to-leading
+logarithmic accuracy and collecting terms gives the result. Positivity
+of the integrand then implies the bound.
+\end{proof}
+
+\begin{align}
+  \frac{1}{\sigma_0} \frac{d\sigma}{d\rho} &= \beta_0 \as^2 \log\frac{\muR}{\muF} \nonumber \\
+  &\quad + {e_2^{(2)}}^{2} (1 - x)^{3} + \mathcal{O}(\as^3) \label{eq:3}
+\end{align}
+
+\begin{equation}
+  \frac{d \EMD}{d \tau} = \exp\left[\beta_0 \as^2 \log\frac{\muR}{\muF}\right]
+  \label{eq:4}
+\end{equation}
+
+\begin{equation}
+  \mathcal{M}^{(2)} = \beta_0 \as^2 \log\frac{\muR}{\muF} + \Pgg(z) \, \Theta(z - \zcut)
+  \label{eq:5}
+

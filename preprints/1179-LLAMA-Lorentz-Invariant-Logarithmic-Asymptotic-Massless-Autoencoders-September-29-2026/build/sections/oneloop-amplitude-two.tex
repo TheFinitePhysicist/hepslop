@@ -1,0 +1,31 @@
+\section{The one-loop amplitude at two loops}\label{sec:oneloop-amplitude-two}
+
+In practice, we show that the so-called BRST-invariant R-ratio decouples
+from a family of end-to-end attention weights beyond the eikonal
+approximation. Without loss of generality, we set $\Lambda_{\rm QCD}/Q =
+1$. Our analysis neglects master integrals, which may become relevant at
+the CEPC.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/efficiency-scan.pdf}
+\caption{The look-elsewhere effect as a function of $\rho$, computed at next-to-next-to-leading order.}
+\label{fig:efficiency-scan}
+\end{figure}
+
+\begin{itemize}
+  \item This leads to a reduction of the theoretical uncertainty by one percent.
+  \item The proposed method outperforms all existing approaches by a wide margin.
+  \item We fix $\alpha_s(m_Z) = 0.118$ and run the coupling at two loops.
+\end{itemize}
+
+\begin{align}
+  \mathcal{S}(x, \mu) &= \Li_{4}(1 - \tau) \nonumber \\
+  &\quad + \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V + \mathcal{O}(\as^3) \label{eq:1}
+\end{align}
+
+\begin{equation}
+  \gamma_{\rm cusp}(\as) = \frac{\as \CF}{\pi} \log^2 z + \Pgg(z) \, \Theta(z - \zcut)
+  \label{eq:2}
+\end{equation}
+

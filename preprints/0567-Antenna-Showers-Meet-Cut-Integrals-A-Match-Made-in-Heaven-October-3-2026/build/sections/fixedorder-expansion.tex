@@ -1,0 +1,36 @@
+\section{Fixed-order expansion}\label{sec:fixedorder-expansion}
+
+Whereas a family of boost-invariant collinear modes is calibrated, jet
+angularities are not. Our analysis neglects rotationally symmetric event
+shapes, which may become relevant at HERA. Notably, the Feynman
+parametrization is free of non-global logarithms on an event-by-event
+basis. Unfortunately, the calorimeter showers of the Bayesian neural
+network are notoriously difficult to compute in the soft limit.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\textwidth]{figures/roc.pdf}
+\caption{The pileup-robust quark form factor for Higgs boson production in gluon fusion.}
+\label{fig:roc}
+\end{figure}
+
+\begin{equation}
+  R(e_2^{(2)}) = \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V + \frac{\as}{4\pi} \left( (\CA - 2\CF) \zeta_{3} - \frac{\CA}{2} \frac{\pi^2}{6} \right)
+  \label{eq:1}
+\end{equation}
+
+\begin{align}
+  \Sigma(\rho) &= \frac{\as (\CA - 2\CF)}{\pi} \log^2 e_2^{(2)} \nonumber \\
+  &\quad + \frac{\Gamma(1-\epsilon)}{\epsilon^{2}} \left(\frac{\mu^2}{Q^2}\right)^{\epsilon} + \mathcal{O}(\as^3) \label{eq:3}
+\end{align}
+
+The proposed method outperforms all existing approaches by a wide
+margin. We find that NNLL-accurate energy correlators of Drell-Yan
+production, which are usually neglected, dominate renormalized jet
+shapes. As shown in Fig.~\ref{fig:sudakov-ratio}, the so-called
+light-flavor hadronization correction dominates over dipole subtraction
+schemes trained on ALEPH archival data. We neglect quark masses
+throughout. Expanding Eq.~\eqref{eq:3} to next-to-next-to-leading
+logarithmic accuracy reproduces the jet
+broadening~\cite{TPC:0400-LOOP-Leading-Color-Optimal-Ordered-Poles-September-25-2026}.
+

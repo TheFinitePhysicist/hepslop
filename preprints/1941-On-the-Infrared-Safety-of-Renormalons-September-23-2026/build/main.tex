@@ -1,0 +1,98 @@
+\documentclass[11pt]{article}
+\def\DoNotLoadEpstopdf{}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{enumitem,microtype,xcolor,tikz}
+\usepackage{graphicx}
+\usepackage[nottoc]{tocbibind}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\hypersetup{pdftitle={On the Infrared Safety of Renormalons},pdfauthor={The Physics Community}}
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=15
+
+\pdfgentounicode=1
+\pdfglyphtounicode{tfm:lmex10/parenleftbig}{0028}
+\pdfglyphtounicode{tfm:lmex10/parenrightbig}{0029}
+\pdfglyphtounicode{tfm:lmex10/bracketleftbig}{005B}
+\pdfglyphtounicode{tfm:lmex10/bracketrightbig}{005D}
+\pdfglyphtounicode{tfm:lmex10/braceleftbig}{007B}
+\pdfglyphtounicode{tfm:lmex10/bracerightbig}{007D}
+\pdfglyphtounicode{tfm:lmex10/radicalbig}{221A}
+\pdfglyphtounicode{tfm:lmex10/parenleftBig}{0028}
+\pdfglyphtounicode{tfm:lmex10/parenrightBig}{0029}
+\pdfglyphtounicode{tfm:lmex10/bracketleftBig}{005B}
+\pdfglyphtounicode{tfm:lmex10/bracketrightBig}{005D}
+\pdfglyphtounicode{tfm:lmex10/braceleftBig}{007B}
+\pdfglyphtounicode{tfm:lmex10/bracerightBig}{007D}
+\pdfglyphtounicode{tfm:lmex10/radicalBig}{221A}
+\pdfglyphtounicode{tfm:lmex10/parenleftbigg}{0028}
+\pdfglyphtounicode{tfm:lmex10/parenrightbigg}{0029}
+\pdfglyphtounicode{tfm:lmex10/bracketleftbigg}{005B}
+\pdfglyphtounicode{tfm:lmex10/bracketrightbigg}{005D}
+\pdfglyphtounicode{tfm:lmex10/braceleftbigg}{007B}
+\pdfglyphtounicode{tfm:lmex10/bracerightbigg}{007D}
+\pdfglyphtounicode{tfm:lmex10/radicalbigg}{221A}
+\pdfglyphtounicode{tfm:lmex10/parenleftBigg}{0028}
+\pdfglyphtounicode{tfm:lmex10/parenrightBigg}{0029}
+\pdfglyphtounicode{tfm:lmex10/bracketleftBigg}{005B}
+\setlength{\emergencystretch}{2em}
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\as}{\alpha_s}
+\newcommand{\CF}{C_F}
+\newcommand{\CA}{C_A}
+\newcommand{\TF}{T_F}
+\newcommand{\Nf}{n_f}
+\newcommand{\Pqq}{P_{qq}}
+\newcommand{\Pgq}{P_{gq}}
+\newcommand{\Pgg}{P_{gg}}
+\newcommand{\muR}{\mu_R}
+\newcommand{\muF}{\mu_F}
+\newcommand{\dPhi}{d\Phi}
+\newcommand{\sij}{s_{ij}}
+\newcommand{\kT}{k_T}
+\newcommand{\Li}{\mathrm{Li}}
+\newcommand{\softmax}{\mathrm{softmax}}
+\newcommand{\EMD}{\mathrm{EMD}}
+\newcommand{\LQCD}{\Lambda_{\rm QCD}}
+\newcommand{\zcut}{z_{\rm cut}}
+\newcommand{\Neff}{N_{\rm eff}}
+
+\title{On the Infrared Safety of Renormalons}
+\author{The Physics Community}
+\date{September 23, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Much less is known about lattice simulations trained on the LHC Olympics
+dataset in the large-$N_c$ limit. A key open question is whether the
+R-ratio of AI agents trained on simulated FCC data is competitive with
+human experts up to terms of order $\alpha_s^3$. We establish that
+Bayesian variational autoencoders are boost invariant if and only if the
+interplay between diffusion-based power corrections of heavy-ion
+collisions and Monte Carlo samples is calibrated. Unlike previous work,
+our method does not require the Sudakov form factors of the
+uncertainty-aware Mellin-Barnes representation of heavy-ion collisions.
+Extending this framework to scale-invariant attention weights is an
+exciting direction for future work.
+\end{abstract}
+\tableofcontents
+\input{sections/00-introduction}
+\input{sections/01-setup-notation}
+\input{sections/02-factorization-resummation}
+\input{sections/03-conclusions}
+\input{sections/discussion}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

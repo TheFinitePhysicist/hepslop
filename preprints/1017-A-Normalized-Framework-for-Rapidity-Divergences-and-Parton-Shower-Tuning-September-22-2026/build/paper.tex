@@ -1,0 +1,29 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{A Normalized Framework for Rapidity Divergences and Parton Shower Tuning}
+\author{The Physics Community}
+\date{September 22, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Light-flavor weakly supervised classifiers are indispensable for jet
+substructure, yet their infrared safety is rarely examined. However,
+existing approaches to weakly supervised classification neglect beam
+functions. Our approach combines the energy correlators of a family of
+learnable synthetic events with diffusion models trained on Pythia
+samples. Our results show that numerical hemisphere masses regularize
+the simulation-based Gaussian process. This unlocks the full potential
+of Monte Carlo event generators for event generation.
+\end{abstract}
+\tableofcontents
+\input{sections/introduction}
+\input{sections/elephant-wasserstein-space}
+\input{sections/elephant-signal-region}
+\input{sections/qt-subtraction-scheme}
+\input{sections/conclusions}
+\input{sections/appendix-two-loop}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

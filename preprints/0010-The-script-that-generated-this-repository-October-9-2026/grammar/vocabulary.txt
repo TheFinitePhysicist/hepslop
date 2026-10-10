@@ -1,0 +1,407 @@
+# observables
+<ObservableSingular> -> energy correlator
+<ObservableSingular> -> two-point energy correlator
+<ObservableSingular> -> three-point energy correlator
+<ObservableSingular> -> thrust distribution
+<ObservableSingular> -> C-parameter distribution
+<ObservableSingular> -> heavy hemisphere mass
+<ObservableSingular> -> jet mass distribution
+<ObservableSingular> -> groomed jet mass
+<ObservableSingular> -> jet angularity
+<ObservableSingular> -> N-subjettiness ratio
+<ObservableSingular> -> energy correlation function
+<ObservableSingular> -> Lund plane density
+<ObservableSingular> -> soft function
+<ObservableSingular> -> jet function
+<ObservableSingular> -> hard function
+<ObservableSingular> -> beam function
+<ObservableSingular> -> Sudakov form factor
+<ObservableSingular> -> cusp anomalous dimension
+<ObservableSingular> -> quark form factor
+<ObservableSingular> -> gluon form factor
+<ObservableSingular> -> splitting function
+<ObservableSingular> -> eikonal factor
+<ObservableSingular> -> running coupling
+<ObservableSingular> -> R-ratio
+<ObservableSingular> -> event isotropy
+<ObservableSingular> -> Energy Mover's Distance
+<ObservableSingular> -> spectral Energy Mover's Distance
+<ObservableSingular> -> likelihood ratio
+<ObservableSingular> -> test statistic
+<ObservableSingular> -> background rejection rate
+<ObservableSingular> -> charged-particle multiplicity
+<ObservableSingular> -> jet charge
+<ObservableSingular> -> jet broadening
+<ObservableSingular> -> transverse momentum spectrum
+<ObservableSingular> -> rapidity gap fraction
+<ObservableSingular> -> double-real correction
+<ObservableSingular> -> real-virtual correction
+<ObservableSingular> -> two-loop amplitude
+<ObservableSingular> -> one-loop amplitude
+<ObservableSingular> -> master integral
+<ObservableSingular> -> phase-space measure
+<ObservableSingular> -> Wasserstein distance
+<ObservableSingular> -> smeared matrix element
+<ObservableSingular> -> effective sample size
+<ObservableSingular> -> anomalous dimension matrix
+<ObservableSingular> -> radiator
+<ObservableSingular> -> collinear anomaly
+<ObservableSingular> -> fragmentation function
+<ObservablePlural> -> energy correlators
+<ObservablePlural> -> event shapes
+<ObservablePlural> -> jet angularities
+<ObservablePlural> -> jet substructure observables
+<ObservablePlural> -> N-subjettiness ratios
+<ObservablePlural> -> energy flow polynomials
+<ObservablePlural> -> Lund plane emissions
+<ObservablePlural> -> non-global logarithms
+<ObservablePlural> -> splitting functions
+<ObservablePlural> -> Sudakov form factors
+<ObservablePlural> -> Catani-Seymour dipoles
+<ObservablePlural> -> antenna functions
+<ObservablePlural> -> infrared poles
+<ObservablePlural> -> Feynman integrals
+<ObservablePlural> -> master integrals
+<ObservablePlural> -> polylogarithms
+<ObservablePlural> -> shower histories
+<ObservablePlural> -> event weights
+<ObservablePlural> -> negative event weights
+<ObservablePlural> -> multiplicity moments
+<ObservablePlural> -> soft gluon emissions
+<ObservablePlural> -> collinear emissions
+<ObservablePlural> -> power corrections
+<ObservablePlural> -> hadronization corrections
+<ObservablePlural> -> anomalous dimensions
+<ObservablePlural> -> color factors
+<ObservablePlural> -> scattering amplitudes
+<ObservablePlural> -> Wilson lines
+<ObservablePlural> -> form factors
+<ObservablePlural> -> latent representations
+<ObservablePlural> -> attention weights
+<ObservablePlural> -> classifier outputs
+<ObservablePlural> -> likelihood ratios
+<ObservablePlural> -> signal regions
+<ObservablePlural> -> sideband events
+<ObservablePlural> -> nuisance parameters
+<ObservablePlural> -> optimal transport plans
+<ObservablePlural> -> jet constituents
+<ObservablePlural> -> particle clouds
+<ObservablePlural> -> boosted top quarks
+<ObservablePlural> -> quark and gluon jets
+<ObservablePlural> -> beam functions
+<ObservablePlural> -> rapidity divergences
+
+# methods
+<MethodSingular> -> normalizing flow
+<MethodSingular> -> transformer
+<MethodSingular> -> graph neural network
+<MethodSingular> -> Deep Sets architecture
+<MethodSingular> -> energy flow network
+<MethodSingular> -> particle flow network
+<MethodSingular> -> variational autoencoder
+<MethodSingular> -> diffusion model
+<MethodSingular> -> foundation model
+<MethodSingular> -> large language model
+<MethodSingular> -> weakly supervised classifier
+<MethodSingular> -> CWOLA classifier
+<MethodSingular> -> Sinkhorn iteration
+<MethodSingular> -> dipole subtraction scheme
+<MethodSingular> -> antenna subtraction scheme
+<MethodSingular> -> phase-space slicing method
+<MethodSingular> -> parton shower
+<MethodSingular> -> renormalization group equation
+<MethodSingular> -> factorization theorem
+<MethodSingular> -> dispersive approach
+<MethodSingular> -> moment-pooling network
+<MethodSingular> -> Lorentz-equivariant network
+<MethodSingular> -> contrastive learning objective
+<MethodSingular> -> simulation-based inference pipeline
+<MethodSingular> -> unfolding procedure
+<MethodSingular> -> reweighting scheme
+<MethodSingular> -> likelihood-free test
+<MethodSingular> -> bump hunt
+<MethodSingular> -> sideband interpolation
+<MethodSingular> -> density estimator
+<MethodSingular> -> optimal transport solver
+<MethodSingular> -> Monte Carlo integrator
+<MethodSingular> -> importance sampler
+<MethodSingular> -> effective field theory
+<MethodSingular> -> soft-collinear effective theory
+<MethodSingular> -> sector decomposition
+<MethodSingular> -> integration-by-parts reduction
+<MethodSingular> -> Kolmogorov-Arnold network
+<MethodSingular> -> mixture of experts
+<MethodSingular> -> agentic workflow
+<MethodPlural> -> normalizing flows
+<MethodPlural> -> transformers
+<MethodPlural> -> graph neural networks
+<MethodPlural> -> energy flow networks
+<MethodPlural> -> variational autoencoders
+<MethodPlural> -> diffusion models
+<MethodPlural> -> foundation models
+<MethodPlural> -> weakly supervised classifiers
+<MethodPlural> -> dipole subtraction schemes
+<MethodPlural> -> parton showers
+<MethodPlural> -> renormalization group equations
+<MethodPlural> -> factorization theorems
+<MethodPlural> -> Lorentz-equivariant networks
+<MethodPlural> -> density estimators
+<MethodPlural> -> optimal transport solvers
+<MethodPlural> -> effective field theories
+<MethodPlural> -> integration-by-parts identities
+<MethodPlural> -> differential equations
+<MethodPlural> -> sector decompositions
+<MethodPlural> -> Monte Carlo event generators
+<MethodPlural> -> attention mechanisms
+<MethodPlural> -> self-supervised objectives
+<MethodPlural> -> Kolmogorov-Arnold networks
+<MethodPlural> -> large language models
+<MethodPlural> -> AI agents
+
+# modifiers
+<Adjective> -> infrared-safe
+<Adjective> -> collinear-safe
+<Adjective> -> Lorentz-equivariant
+<Adjective> -> permutation-invariant
+<Adjective> -> weakly supervised
+<Adjective> -> self-supervised
+<Adjective> -> unsupervised
+<Adjective> -> resummed
+<Adjective> -> renormalized
+<Adjective> -> non-global
+<Adjective> -> one-loop
+<Adjective> -> two-loop
+<Adjective> -> three-loop
+<Adjective> -> boosted
+<Adjective> -> groomed
+<Adjective> -> soft-dropped
+<Adjective> -> calibrated
+<Adjective> -> interpretable
+<Adjective> -> positive
+<Adjective> -> normalized
+<Adjective> -> spectral
+<Adjective> -> smeared
+<Adjective> -> differentiable
+<Adjective> -> factorized
+<Adjective> -> gauge-invariant
+<Adjective> -> color-ordered
+<Adjective> -> leading-color
+<Adjective> -> subleading-color
+<Adjective> -> dimensionally regularized
+<Adjective> -> scale-invariant
+<Adjective> -> conformal
+<Adjective> -> eikonal
+<Adjective> -> strongly ordered
+<Adjective> -> angular-ordered
+<Adjective> -> Sudakov-safe
+<Adjective> -> data-driven
+<Adjective> -> model-agnostic
+<Adjective> -> uncertainty-aware
+<Adjective> -> physics-informed
+<Adjective> -> end-to-end
+<Adjective> -> equivariant
+<Adjective> -> hierarchical
+<Adjective> -> multi-scale
+<Adjective> -> logarithmically enhanced
+<Adjective> -> power-suppressed
+<Adjective> -> fixed-order
+<Adjective> -> all-order
+<Adjective> -> generalized
+<Adjective> -> universal
+<Adjective> -> scalable
+<Adjective> -> robust
+<Adjective> -> next-generation
+<Adjective> -> cutting-edge
+<Adjective> -> AI-native
+<PredicateAdjective> -> infrared and collinear safe
+<PredicateAdjective> -> positive
+<PredicateAdjective> -> finite
+<PredicateAdjective> -> well defined
+<PredicateAdjective> -> Sudakov safe
+<PredicateAdjective> -> scale invariant
+<PredicateAdjective> -> gauge invariant
+<PredicateAdjective> -> universal
+<PredicateAdjective> -> calibrated
+<PredicateAdjective> -> interpretable
+<PredicateAdjective> -> permutation invariant
+<PredicateAdjective> -> numerically stable
+<PredicateAdjective> -> analytically tractable
+<PredicateAdjective> -> free of non-global logarithms
+<PredicateAdjective> -> insensitive to hadronization
+<PredicateAdjective> -> renormalization group invariant
+<PredicateAdjective> -> provably optimal
+<Qualifier> -> to all orders in $\alpha_s$
+<Qualifier> -> at next-to-leading logarithmic accuracy
+<Qualifier> -> up to power corrections
+<Qualifier> -> in the collinear limit
+<Qualifier> -> in the strongly ordered limit
+<Qualifier> -> without spoiling infrared and collinear safety
+<Qualifier> -> for all values of $z_{\rm cut}$
+<Qualifier> -> in the large-$N_c$ limit
+<Qualifier> -> at the level of the cross section
+<Qualifier> -> up to terms of order $\alpha_s^3$
+<Qualifier> -> within statistical uncertainties
+<Qualifier> -> after hadronization
+<Qualifier> -> before hadronization
+<Qualifier> -> at leading color
+<Qualifier> -> independently of the jet radius
+<Qualifier> -> for any choice of the renormalization scale
+<Qualifier> -> once non-global logarithms are included
+<Qualifier> -> in the absence of pileup
+<Qualifier> -> up to a universal constant
+<Qualifier> -> at fixed coupling
+<Qualifier> -> with unprecedented accuracy
+<Qualifier> -> at scale
+
+# verbs
+<VerbSingular> -> reproduces
+<VerbSingular> -> constrains
+<VerbSingular> -> outperforms
+<VerbSingular> -> saturates
+<VerbSingular> -> captures
+<VerbSingular> -> matches
+<VerbSingular> -> dominates
+<VerbSingular> -> cancels against
+<VerbSingular> -> bounds
+<VerbSingular> -> resums
+<VerbSingular> -> regulates
+<VerbSingular> -> mimics
+<VerbSingular> -> absorbs
+<VerbSingular> -> controls
+<VerbSingular> -> encodes
+<VerbSingular> -> determines
+<VerbSingular> -> factorizes into
+<VerbSingular> -> decouples from
+<VerbSingular> -> unlocks
+<VerbSingular> -> revolutionizes
+<VerbPlural> -> reproduce
+<VerbPlural> -> constrain
+<VerbPlural> -> outperform
+<VerbPlural> -> saturate
+<VerbPlural> -> capture
+<VerbPlural> -> match
+<VerbPlural> -> dominate
+<VerbPlural> -> cancel against
+<VerbPlural> -> bound
+<VerbPlural> -> resum
+<VerbPlural> -> regulate
+<VerbPlural> -> mimic
+<VerbPlural> -> absorb
+<VerbPlural> -> control
+<VerbPlural> -> encode
+<VerbPlural> -> determine
+<VerbPlural> -> factorize into
+<VerbPlural> -> decouple from
+<VerbPlural> -> unlock
+<VerbPlural> -> revolutionize
+<WeVerb> -> compute
+<WeVerb> -> resum
+<WeVerb> -> derive
+<WeVerb> -> construct
+<WeVerb> -> calibrate
+<WeVerb> -> regularize
+<WeVerb> -> unfold
+<WeVerb> -> renormalize
+<WeVerb> -> bound
+<WeVerb> -> extract
+<WeVerb> -> learn
+<WeVerb> -> parametrize
+<WeVerb> -> reweight
+<WeVerb> -> factorize
+<WeVerb> -> symmetrize
+<WeVerb> -> sample
+<WeVerb> -> train
+<WeVerb> -> leverage
+<WeVerb> -> harness
+
+# context
+<Order> -> next-to-leading order
+<Order> -> next-to-next-to-leading order
+<Order> -> leading logarithmic accuracy
+<Order> -> next-to-leading logarithmic accuracy
+<Order> -> next-to-next-to-leading logarithmic accuracy
+<Order> -> leading power
+<Order> -> next-to-leading power
+<Order> -> two loops
+<Order> -> three loops
+<Order> -> order $\alpha_s^2$
+<Order> -> order $\alpha_s^3$
+<Field> -> perturbative QCD
+<Field> -> jet substructure
+<Field> -> collider phenomenology
+<Field> -> anomaly detection
+<Field> -> precision jet physics
+<Field> -> machine learning for particle physics
+<Field> -> amplitude calculations
+<Field> -> event generation
+<Field> -> resummation
+<Field> -> simulation-based inference
+<Field> -> AI for science
+<Process> -> electron-positron annihilation
+<Process> -> Higgs boson decay to gluons
+<Process> -> Drell-Yan production
+<Process> -> top-quark pair production
+<Process> -> dijet production
+<Process> -> deep inelastic scattering
+<Process> -> hadronic Z boson decays
+<Process> -> boosted W boson production
+<Process> -> vector boson fusion
+<Process> -> Higgs plus jet production
+<Collider> -> the LHC
+<Collider> -> LEP
+<Collider> -> the High-Luminosity LHC
+<Collider> -> a future circular collider
+<Collider> -> the Electron-Ion Collider
+<Limit> -> collinear limit
+<Limit> -> soft limit
+<Limit> -> back-to-back limit
+<Limit> -> large-$N_c$ limit
+<Limit> -> strongly ordered limit
+<Limit> -> threshold limit
+<Limit> -> small-$z_{\rm cut}$ limit
+<Limit> -> high-energy limit
+<Limit> -> conformal limit
+<Limit> -> double-logarithmic limit
+<Energy> -> $\sqrt{s} = 13$ TeV
+<Energy> -> $\sqrt{s} = 91.2$ GeV
+<Energy> -> the $Z$ pole
+<Energy> -> $\sqrt{s} = 14$ TeV
+<Energy> -> $\sqrt{s} = 240$ GeV
+<Percent> -> one percent
+<Percent> -> two percent
+<Percent> -> five percent
+<Percent> -> a part in a thousand
+<Epochs> -> 50
+<Epochs> -> 100
+<Epochs> -> 200
+<Epochs> -> 500
+<EventCount> -> $10^5$
+<EventCount> -> $10^6$
+<EventCount> -> $5 \times 10^5$
+<EventCount> -> one million
+<BootstrapCount> -> 10
+<BootstrapCount> -> 50
+<BootstrapCount> -> 100
+<JetRadius> -> 0.4
+<JetRadius> -> 0.8
+<JetRadius> -> 1.0
+<MathAtom> -> \log^2 \tau
+<MathAtom> -> \log z_{\rm cut}
+<MathAtom> -> \alpha_s^2 L^3
+<MathAtom> -> C_F C_A \zeta_2
+<MathAtom> -> n_f T_F
+<MathAtom> -> \beta_0 \log(\mu_R^2/Q^2)
+<MathAtom> -> \pi^2
+<MathAtom> -> \zeta_3
+<MathVariable> -> \tau
+<MathVariable> -> z_{\rm cut}
+<MathVariable> -> \rho
+<MathVariable> -> \theta
+<MathVariable> -> x
+<MathVariable> -> e_2^{(2)}
+<MathVariable> -> \Lambda_{\rm QCD}/Q
+<Generator> -> Pythia
+<Generator> -> Herwig
+<Generator> -> Sherpa
+<Generator> -> analytic resummation
+<Generator> -> fixed-order QCD

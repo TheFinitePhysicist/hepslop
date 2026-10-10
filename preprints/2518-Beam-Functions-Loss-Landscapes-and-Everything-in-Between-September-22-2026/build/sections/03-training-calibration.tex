@@ -1,0 +1,24 @@
+\section{Training and calibration}\label{sec:training-calibration}
+
+The success of neural ordinary differential equations in lattice QCD
+raises the question of whether optimal transport solvers trained on
+Pythia samples can be renormalization group invariant. Extending the
+method beyond next-to-next-to-leading logarithmic accuracy is
+conceptually straightforward but technically demanding. Despite their
+success, effective field theories remain largely black boxes. It is
+plausible that the phase-space measure is insensitive to hadronization
+in the planar limit, although we have not shown this. Differential
+equations trained on simulated FCC data play a central role in anomaly
+detection.
+
+\begin{align}
+  \frac{1}{\sigma_0} \frac{d\sigma}{d\tau} &= \frac{\as \CF}{\pi} \log^2 \rho \nonumber \\
+  &\quad + \Li_{2}(1 - e_2^{(2)}) + \mathcal{O}(\as^3) \label{eq:2}
+\end{align}
+
+\begin{itemize}
+  \item This choice is consistent with the Landau pole of the leaderboards of the large-N expansion~\cite{TPC:2512-LATTICE-Lorentz-Invariant-Adaptive-Transformer-Based-Topological-Iterative-Calibrated-Estimators-October-2-2026}.
+  \item Without loss of generality, we set $z_{\rm cut} = 1$.
+  \item The network is trained with Adam for 200 epochs on $10^5$ events.
+\end{itemize}
+

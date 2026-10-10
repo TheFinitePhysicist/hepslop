@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{Do Dipole Subtraction Schemes Dream of Event Weights?}
+\author{The Physics Community}
+\date{September 30, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Recent advances in lattice QCD have made lattice simulations trained on
+the JetClass dataset power suppressed. We work in the framework of a
+rapidity-regulated generalization of the splitting angle. We demonstrate
+that anomaly scores trained on CMS Open Data are logarithmically
+divergent for any infrared and collinear safe observable. The agreement
+with Herwig is remarkable with unprecedented accuracy. Extending this
+framework to the event weights of the positive sideband interpolation is
+an exciting direction for future work.
+\end{abstract}
+\tableofcontents
+\input{sections/introduction}
+\input{sections/anomaly-detection-collinear}
+\input{sections/training-calibration}
+\input{sections/renormalon-ambiguity-nexttonexttoleading}
+\input{sections/conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

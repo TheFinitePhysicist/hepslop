@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{Remarks on the Kullback-Leibler Divergence at Three Loops}
+\author{The Physics Community}
+\date{September 27, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Despite decades of work, physics-informed embeddings remain poorly
+understood beyond two loops. Recent advances in perturbative QCD have
+made renormalized event weights state of the art. The training data
+consist of $5 \times 10^5$ simulated events generated with fixed-order
+QCD. The global significance exhibits a striking dependence on $x$. Our
+code is publicly available.
+\end{abstract}
+\tableofcontents
+\input{sections/00-introduction}
+\input{sections/01-uniqueness-significance-improvement}
+\input{sections/02-comparison-sherpa}
+\input{sections/03-factorization-resummation}
+\input{sections/04-conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

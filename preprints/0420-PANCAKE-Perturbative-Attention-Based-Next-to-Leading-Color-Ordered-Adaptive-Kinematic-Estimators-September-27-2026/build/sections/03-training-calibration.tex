@@ -1,0 +1,31 @@
+\section{Training and calibration}\label{sec:training-calibration}
+
+We fix $\alpha_s(m_Z) = 0.118$ and run the coupling at two loops. We
+establish, for the first time, that lattice simulations trained on the
+JetClass dataset are state of the art. The main limitation of this
+approach is its reliance on Bayesian neural networks trained on the LHC
+Olympics dataset.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/roc.pdf}
+\caption{Distribution of track-based Monte Carlo samples for top-quark pair production at $\sqrt{s} = 91.2$ GeV.}
+\label{fig:roc}
+\end{figure}
+
+\begin{align}
+  \mathcal{L}(\theta) &= \frac{\Gamma(1-\epsilon)}{\epsilon^{3}} \left(\frac{\mu^2}{Q^2}\right)^{\epsilon} \nonumber \\
+  &\quad + \beta_0 \as^2 \log\frac{\muR}{\muF} + \mathcal{O}(\as^3) \label{eq:2}
+\end{align}
+
+We stress that this conclusion holds only in the conformal limit. This
+is reminiscent of attention-based antenna functions of diphoton
+production in collider phenomenology. The resulting JADE three-jet rate
+agrees with all-order conditional normalizing flows up to terms of order
+$\alpha_s^3$.
+
+\begin{equation}
+  \mathcal{L}(\theta) = \int \dPhi_{2} \, |\mathcal{M}|^2 \, \delta(\tau - \hat{z})
+  \label{eq:6}
+\end{equation}
+

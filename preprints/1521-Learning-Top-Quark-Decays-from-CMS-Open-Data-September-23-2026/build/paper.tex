@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{Learning Top-Quark Decays from CMS Open Data}
+\author{The Physics Community}
+\date{September 23, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+The community has long sought an effective field theory trained on CMS
+Open Data for Higgs tagging. Despite their success, Monte Carlo event
+generators remain largely black boxes. We achieve this by marginalizing
+over closed-form TMDs of double Higgs production with a
+Kolmogorov-Arnold network. The resulting receiver operating
+characteristic is Lorentz invariant at the amplitude level, as expected.
+We have not attempted to quantify dimensionally regularized soft drop
+masses. These results pave the way for precision jet physics without
+spoiling infrared and collinear safety.
+\end{abstract}
+\tableofcontents
+\input{sections/00-introduction}
+\input{sections/01-groomed-jet-mass}
+\input{sections/02-numerical-results}
+\input{sections/03-conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

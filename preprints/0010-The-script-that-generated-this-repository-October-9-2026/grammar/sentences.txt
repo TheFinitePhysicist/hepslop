@@ -1,0 +1,136 @@
+# abstracts
+<Abstract> -> <ContextSentence> <MethodSentence> <ResultSentence> <ClosingSentence>
+<Abstract> -> <ContextSentence> <ClaimSentence> <MethodSentence> <ClosingSentence>
+<Abstract> -> <ContextSentence> <MethodSentence> <ResultSentence> <ResultSentence> <ClosingSentence>
+<Abstract> -> <ContextSentence> <MethodSentence> <ClaimSentence> <ResultSentence>
+<Abstract> -> <ContextSentence> <ContextSentence> <MethodSentence> <ResultSentence> <ClosingSentence>
+<Abstract> -> <ContextSentence> <MethodSentence> <ResultSentence> <ResultSentence> <ClosingSentence>
+
+# body text
+<BodySentence> -> <ContextSentence>
+<BodySentence> -> <ClaimSentence>
+<BodySentence> -> <MethodSentence>
+<BodySentence> -> <ResultSentence>
+<BodySentence> -> <TechnicalSentence>
+<BodySentence> -> <TechnicalSentence>
+<ContextSentence> -> <NounPhrasePlural> play a central role in <Field>.
+<ContextSentence> -> <NounPhraseSingular> is a central ingredient in <Field>.
+<ContextSentence> -> despite decades of work, <NounPhrasePlural> remain poorly understood beyond <Order>.
+<ContextSentence> -> recent advances in <Field> have made <NounPhrasePlural> <PredicateAdjective>.
+<ContextSentence> -> the study of <NounPhrasePlural> has a long history<Cite>.
+<ContextSentence> -> much less is known about <NounPhrasePlural> in the <Limit>.
+<ContextSentence> -> <NounPhrasePlural> are among the most precisely measured quantities at <Collider>.
+<ContextSentence> -> in recent years, <MethodPlural> have been applied to <Task><Cite>.
+<ContextSentence> -> in the rapidly evolving landscape of <Field>, <NounPhrasePlural> play a pivotal role.
+<ContextSentence> -> <NounPhrasePlural> lie at the heart of <Field>.
+<ContextSentence> -> understanding the intricate interplay between <NounPhrasePlural> and <NounPhrasePlural> remains a fundamental challenge.
+<ContextSentence> -> it is worth noting that <NounPhraseSingular> is <PredicateAdjective> <Qualifier>.
+<ContextSentence> -> with the advent of <MethodPlural>, research on <Field> has entered a new era.
+<ContextSentence> -> <NounPhrasePlural> have long been regarded as the holy grail of <Field>.
+<ContextSentence> -> the elephant in the room is that <NounPhrasePlural> are not <PredicateAdjective>.
+<ClaimSentence> -> we show that <NounPhraseSingular> <VerbSingular> <AnyNounPhrase> <Qualifier>.
+<ClaimSentence> -> we prove that <NounPhrasePlural> <VerbPlural> <AnyNounPhrase> <Qualifier>.
+<ClaimSentence> -> we argue that <NounPhraseSingular> is <PredicateAdjective> <Qualifier>.
+<ClaimSentence> -> we demonstrate that <NounPhrasePlural> are <PredicateAdjective> <Qualifier>.
+<ClaimSentence> -> in particular, <NounPhraseSingular> is <PredicateAdjective> <Qualifier>.
+<ClaimSentence> -> strikingly, <NounPhraseSingular> is <PredicateAdjective> <Qualifier>.
+<ClaimSentence> -> we establish, for the first time, that <NounPhrasePlural> are <PredicateAdjective>.
+<MethodSentence> -> we <WeVerb> <AnyNounPhrase> using <NounPhrasePlural>.
+<MethodSentence> -> to this end, we <WeVerb> <AnyNounPhrase> with <IndefiniteNounPhrase>.
+<MethodSentence> -> our approach combines <NounPhrasePlural> with <NounPhrasePlural>.
+<MethodSentence> -> we introduce <IndefiniteNounPhrase> that <VerbSingular> <AnyNounPhrase>.
+<MethodSentence> -> building on <NounPhraseSingular><Cite>, we <WeVerb> <AnyNounPhrase> <Qualifier>.
+<MethodSentence> -> we <WeVerb> <AnyNounPhrase> and <WeVerb> <AnyNounPhrase> <Qualifier>.
+<MethodSentence> -> in this work, we delve into <NounPhrasePlural> by leveraging <IndefiniteNounPhrase>.
+<MethodSentence> -> we propose a novel, unified framework that bridges the gap between <Field> and <Field>.
+<MethodSentence> -> harnessing the power of <MethodPlural>, we <WeVerb> <AnyNounPhrase> <Qualifier>.
+<MethodSentence> -> we take a first step towards <IndefiniteNounPhrase> for <Task>.
+<MethodSentence> -> leveraging recent breakthroughs in <Field>, we <WeVerb> <AnyNounPhrase> end to end.
+<ResultSentence> -> we find that <NounPhraseSingular> <VerbSingular> <AnyNounPhrase> <Qualifier>.
+<ResultSentence> -> our results show that <NounPhrasePlural> <VerbPlural> <AnyNounPhrase>.
+<ResultSentence> -> the resulting <ObservableSingular> agrees with <NounPhrasePlural> <Qualifier>.
+<ResultSentence> -> numerically, the <Adjective> <ObservableSingular> differs from <NounPhraseSingular> by less than <Percent> <Qualifier>.
+<ResultSentence> -> the <Adjective> <ObservableSingular> improves on <NounPhraseSingular> by a factor of <SmallInteger> <Qualifier>.
+<ResultSentence> -> our approach achieves state-of-the-art performance on <Task>.
+<ResultSentence> -> remarkably, <NounPhraseSingular> <VerbSingular> <AnyNounPhrase> <Qualifier>.
+<ResultSentence> -> crucially, <NounPhrasePlural> <VerbPlural> <AnyNounPhrase>.
+<ResultSentence> -> this sheds new light on <NounPhrasePlural>.
+<ResultSentence> -> the proposed method outperforms all existing approaches by a wide margin.
+<ResultSentence> -> surprisingly, <NounPhrasePlural> emerge naturally from <NounPhraseSingular>.
+<ClosingSentence> -> these results pave the way for <Field> <Qualifier>.
+<ClosingSentence> -> this work paves the way for a new generation of <MethodPlural>.
+<ClosingSentence> -> our findings open new avenues for <Task> at <Collider>.
+<ClosingSentence> -> we believe this constitutes a paradigm shift in <Field>.
+<ClosingSentence> -> this unlocks the full potential of <MethodPlural> for <Task>.
+<ClosingSentence> -> our framework seamlessly integrates <NounPhrasePlural> and <NounPhrasePlural>.
+<ClosingSentence> -> we discuss implications for <Task> at <Collider>.
+<ClosingSentence> -> numerical results are presented for <Process> at <Energy>.
+<ClosingSentence> -> our code is publicly available.
+<ClosingSentence> -> we comment on the extension to <NounPhrasePlural>.
+<ClosingSentence> -> the method applies equally to <NounPhrasePlural> and <NounPhrasePlural>.
+<ClosingSentence> -> this is just the tip of the iceberg.
+<ClosingSentence> -> the implications for <Field> are profound.
+<TechnicalSentence> -> in the <Limit>, <NounPhraseSingular> <VerbSingular> <AnyNounPhrase>.
+<TechnicalSentence> -> at <Order>, the coefficient of $<MathAtom>$ is fixed by <NounPhraseSingular>.
+<TechnicalSentence> -> to regulate the infrared poles, we work in $d = 4 - 2\epsilon$ dimensions.
+<TechnicalSentence> -> the dependence on <NounPhraseSingular> cancels between the real and virtual corrections.
+<TechnicalSentence> -> this choice is consistent with <NounPhraseSingular><Cite>.
+<TechnicalSentence> -> setting $\mu_R = Q$, the logarithms in <NounPhraseSingular> are minimized.
+<TechnicalSentence> -> all color factors are evaluated with $C_F = 4/3$, $C_A = 3$ and $T_F n_f = 5/2$.
+<TechnicalSentence> -> we neglect quark masses throughout.
+<TechnicalSentence> -> the network is trained with Adam for <Epochs> epochs on <EventCount> events.
+<TechnicalSentence> -> each event is represented as a set of <NounPhrasePlural>.
+<TechnicalSentence> -> statistical uncertainties are estimated from <BootstrapCount> bootstrap replicas.
+<TechnicalSentence> -> the remaining terms are suppressed by powers of $<MathVariable>$.
+<TechnicalSentence> -> we fix $\alpha_s(m_Z) = 0.118$ and run the coupling at two loops.
+<TechnicalSentence> -> jets are clustered with the anti-$k_T$ algorithm with radius $R = <JetRadius>$.
+<TechnicalSentence> -> without loss of generality, we set $<MathVariable> = 1$.
+<TechnicalSentence> -> as is well known, <NounPhraseSingular> is <PredicateAdjective> <Qualifier>.
+<TechnicalSentence> -> it is straightforward to show that <NounPhraseSingular> <VerbSingular> <AnyNounPhrase>.
+<TechnicalSentence> -> the details are left as an exercise to the reader.
+<EquationSentence> -> the <ObservableSingular> in <EqRef> <VerbSingular> <AnyNounPhrase> <Qualifier>.
+<EquationSentence> -> inserting <EqRef> into <NounPhraseSingular> gives <IndefiniteNounPhrase>.
+<EquationSentence> -> the first term in <EqRef> is <PredicateAdjective> <Qualifier>.
+<EquationSentence> -> expanding <EqRef> to <Order> reproduces <NounPhraseSingular><Cite>.
+<EquationSentence> -> remarkably, <EqRef> holds <Qualifier>.
+<FigureSentence> -> the <Adjective> <ObservableSingular> is shown in <FigRef>.
+<FigureSentence> -> as shown in <FigRef>, <NounPhraseSingular> <VerbSingular> <AnyNounPhrase>.
+<FigureSentence> -> <FigRef> compares <NounPhrasePlural> across <NounPhrasePlural>.
+<OutlineSentence> -> in <SecRef>, we <WeVerb> <AnyNounPhrase>.
+<OutlineSentence> -> <SecRef> is devoted to <NounPhrasePlural>.
+<OutlineSentence> -> <SecRef> discusses <NounPhraseSingular> <Qualifier>.
+<OutlineSentence> -> in <SecRef>, we delve into <NounPhrasePlural>.
+<TheoremName> -> <PredicateNoun>
+<TheoremName> -> <PredicateNoun> of the <ObservableSingular>
+<TheoremStatement> -> let $<MathVariable>$ be <IndefiniteNounPhrase>. Then <NounPhraseSingular> <VerbSingular> <AnyNounPhrase> <Qualifier>.
+<TheoremStatement> -> for every <Adjective> <ObservableSingular>, <NounPhraseSingular> is <PredicateAdjective> <Qualifier>.
+<TheoremStatement> -> the <ObservableSingular> is <PredicateAdjective> if and only if <NounPhrasePlural> are <PredicateAdjective>.
+<ProofSentence> -> the claim follows from <NounPhraseSingular><Cite>.
+<ProofSentence> -> expanding <NounPhraseSingular> to <Order> and collecting terms gives the result.
+<ProofSentence> -> positivity of the integrand then implies the bound.
+<ProofSentence> -> the remaining terms are power suppressed.
+<ProofSentence> -> the boundary terms vanish in the <Limit>.
+<ProofSentence> -> the same argument applies to <NounPhrasePlural>.
+<ProofSentence> -> the result is obvious.
+<ItemSentence> -> <TechnicalSentence>
+<ItemSentence> -> <ResultSentence>
+<ItemSentence> -> <ClaimSentence>
+
+# noun phrases
+<NounPhraseSingular> -> the <ObservableSingular>
+<NounPhraseSingular> -> the <Adjective> <ObservableSingular>
+<NounPhraseSingular> -> the <Adjective> <MethodSingular>
+<NounPhraseSingular> -> the <ObservableSingular> of <NounPhrasePlural>
+<NounPhraseSingular> -> the <MethodSingular>
+<NounPhrasePlural> -> <ObservablePlural>
+<NounPhrasePlural> -> <Adjective> <ObservablePlural>
+<NounPhrasePlural> -> <Adjective> <MethodPlural>
+<NounPhrasePlural> -> the <ObservablePlural> of <NounPhraseSingular>
+<AnyNounPhrase> -> <NounPhraseSingular>
+<AnyNounPhrase> -> <NounPhrasePlural>
+<IndefiniteNounPhrase> -> a <Adjective> <MethodSingular>
+<IndefiniteNounPhrase> -> a <MethodSingular>
+<IndefiniteNounPhrase> -> a <Adjective> <ObservableSingular>
+<IndefiniteNounPhrase> -> a novel <MethodSingular>
+<IndefiniteNounPhrase> -> a <MethodSingular> for <Task>
+<IndefiniteNounPhrase> -> a game-changing <MethodSingular>

@@ -1,0 +1,69 @@
+\section{Numerical results}\label{sec:numerical-results}
+
+The residual dependence on $x$ is mild. The study of eikonal unitarity
+methods has a long
+history~\cite{TPC:1240-Learning-Form-Factors-from-Simulated-LHC-Data-September-27-2026}.
+Instead of relying on differential equations trained on Pythia samples,
+we exploit dipole showers trained on the JetClass dataset.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.5\textwidth]{figures/efficiency-scan.pdf}
+\caption{The data-driven neural tangent kernel for W plus jet production.}
+\label{fig:efficiency-scan}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/background-rejection.pdf}
+\caption{The coproduct as a function of $\Lambda_{\rm QCD}/Q$, computed at order $\alpha_s^3$.}
+\label{fig:background-rejection}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/roc.pdf}
+\caption{Performance of an equivariant generalization of the mutual information in the back-to-back region.}
+\label{fig:roc}
+\end{figure}
+
+The residual dependence on $x$ is mild. Compared to Sudakov-safe soft
+modes of deep inelastic scattering, our approach is more interpretable
+by a factor of 4. This is reminiscent of anomalous dimensions in string
+theory. To our knowledge, the thrust distribution is Lorentz invariant
+at detector level.
+
+\begin{equation}
+  F(\theta) = \int_0^1 dz \, \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V
+  \label{eq:1}
+\end{equation}
+
+\begin{align}
+  R(e_2^{(2)}) &= \int \dPhi_{2} \, |\mathcal{M}|^2 \, \delta(\tau - \hat{x}) \nonumber \\
+  &\quad + \frac{\as}{2\pi} \CF \CA \log^{4} \frac{1}{e_2^{(2)}} + \mathcal{O}(\as^3) \label{eq:2}
+\end{align}
+
+As is well known, the Sudakov-suppressed Laplace transform is exactly
+solvable at next-to-leading logarithmic accuracy. Remarkably,
+Eq.~\eqref{eq:2} holds in a fully data-driven way. The study of shower
+histories has a long
+history~\cite{TPC:1308-TOKEN-Threshold-Resummed-One-Loop-Kinematic-Equivariant-Networks-September-28-2026}.
+
+\begin{equation}
+  \mathcal{M}^{(2)} = \exp\left[\Pgg(z) \, \Theta(z - \zcut)\right]
+  \label{eq:3}
+\end{equation}
+
+\begin{corollary}[Finiteness]\label{thm:2}
+Let $z_{\rm cut}$ be a novel template fit. Then the coproduct
+outperforms differential equations trained on CMS Open Data at 13 TeV
+after unfolding.
+\end{corollary}
+
+\begin{proof}
+The claim follows from the cusp anomalous dimension of massive theory
+uncertainties~\cite{TPC:1308-TOKEN-Threshold-Resummed-One-Loop-Kinematic-Equivariant-Networks-September-28-2026}.
+The same argument applies to model-agnostic Bayesian neural networks.
+The result is obvious.
+\end{proof}
+

@@ -1,0 +1,41 @@
+\section{The multi-jet merging procedure}\label{sec:multijet-merging-procedure}
+
+Instead of relying on the classifier outputs of the interplay between
+nuisance parameters and the Higgs couplings of the so-called
+next-to-leading-logarithmic jet charge, we exploit the event shapes of
+the saddle-point approximation. One immediately sees that the interplay
+between AI-native beam functions of trijet production and subtraction
+schemes trained on Pythia samples outperforms the so-called normalized
+three-point energy correlator. Throughout, we denote by $\Lambda_{\rm
+QCD}/Q$ the zero-shot collinear anomalous dimension.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/roc.pdf}
+\caption{The R-ratio as a function of $\Lambda_{\rm QCD}/Q$, computed at next-to-next-to-leading logarithmic accuracy.}
+\label{fig:roc}
+\end{figure}
+
+\begin{equation}
+  \gamma_{\rm cusp}(\as) = \exp\left[\frac{\as}{4\pi} \left( \CA \zeta_{2} - \TF \Nf \frac{\pi^2}{6} \right)\right]
+  \label{eq:1}
+\end{equation}
+
+\begin{theorem}[Calibration of the jet shape]\label{thm:1}
+For every closed-form coproduct, the exact Regge trajectory of hadronic
+Z boson decays is free of non-global logarithms in the strongly ordered
+limit.
+\end{theorem}
+
+\begin{proof}
+Expanding the likelihood-free test to next-to-leading power and
+collecting terms gives the result. Positivity of the integrand then
+implies the bound. The same argument applies to weakly supervised
+classifiers trained on the Dark Machines dataset.
+\end{proof}
+
+\begin{align}
+  R(z) &= \frac{\as \CF^2}{\pi} \log^2 x \nonumber \\
+  &\quad + \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V + \mathcal{O}(\as^3) \label{eq:3}
+\end{align}
+

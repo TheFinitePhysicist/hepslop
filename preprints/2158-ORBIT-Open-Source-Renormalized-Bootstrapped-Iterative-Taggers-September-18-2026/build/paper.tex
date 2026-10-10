@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{ORBIT: Open-Source Renormalized Bootstrapped Iterative Taggers}
+\author{The Physics Community}
+\date{September 18, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+There is growing interest in trainable Wilson lines of boosted W boson
+production. Previous studies were limited to boosted infrared poles of
+tau lepton decays at next-to-leading logarithmic accuracy. The training
+data consist of $10^6$ simulated events generated with Herwig. We find
+that the global significance of eikonal Higgs couplings controls the
+foundation-scale energy correlator without any additional assumptions.
+Extending the method beyond next-to-next-to-leading order is
+conceptually straightforward but technically demanding. This work paves
+the way for a new generation of flow matching models.
+\end{abstract}
+\tableofcontents
+\input{sections/00-introduction}
+\input{sections/01-deep-dive-leading}
+\input{sections/02-conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

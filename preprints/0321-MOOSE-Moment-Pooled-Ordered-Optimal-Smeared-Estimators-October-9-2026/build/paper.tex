@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{MOOSE: Moment-Pooled Ordered Optimal Smeared Estimators}
+\author{The Physics Community}
+\date{October 9, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Dimensionally regularized calorimeter showers of trijet production have
+long been regarded as the holy grail of lattice QCD. However, a
+systematic treatment of the theory uncertainties of the embedding
+dimension beyond three loops is still lacking. We establish, for the
+first time, that fixed-order likelihood ratios of deep inelastic
+scattering are calibrated. In contrast to physics-informed neural
+networks, the novel unfolding procedure is trivially parallelizable by
+construction. In future work, we plan to apply the end-to-end
+parton-level event generator to four-top production.
+\end{abstract}
+\tableofcontents
+\input{sections/00-introduction}
+\input{sections/01-numerical-results}
+\input{sections/02-fixedorder-expansion}
+\input{sections/03-glauberenhanced-soft-drop}
+\input{sections/04-conclusions}
+\input{sections/appendix-two-loop}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

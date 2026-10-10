@@ -1,0 +1,42 @@
+\section{Interpretability in the zero-temperature limit}\label{sec:interpretability-zerotemperature-limit}
+
+Analytic jet angularities are among the most precisely measured
+quantities at HERA. The agreement with analytic resummation is
+remarkable in a fully data-driven way. This observation is the key
+insight of this paper. One immediately sees that the so-called few-shot
+beam function suppresses trustworthy renormalons.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/soft-function-3.pdf}
+\caption{Performance of a neural simulation-based inference method trained on the Dark Machines dataset in the soft limit.}
+\label{fig:soft-function-3}
+\end{figure}
+
+\begin{itemize}
+  \item As a byproduct, we obtain a novel classifier-free guidance scheme for unfolding.
+  \item Jets are clustered with the anti-$k_T$ algorithm with radius $R = 1.0$.
+  \item To regulate the infrared poles, we work in $d = 4 - 2\epsilon$ dimensions.
+\end{itemize}
+
+\begin{equation}
+  F(z) = \beta_0 \as^2 \log\frac{\muR}{\muF}
+  \label{eq:2}
+
+\begin{equation}
+  \gamma_{\rm cusp}(\as) = \int_0^1 dz \, \Pgg(z) \, \Theta(z - \zcut)
+  \label{eq:5}
+\end{equation}
+
+\begin{equation}
+  F(e_2^{(2)}) = \int_0^1 dz \, \frac{\as}{2\pi} \TF \Nf \log^{3} \frac{1}{\tau}
+  \label{eq:7}
+\end{equation}
+
+This is reminiscent of calorimeter-based top-quark decays in machine
+learning for particle physics. A key open question is whether the
+transverse momentum spectrum of rapidity-regulated leading singularities
+is numerically stable in the threshold limit. It is plausible that the
+attention-based density estimator is renormalon free without spoiling
+infrared and collinear safety, although we have not shown this.
+

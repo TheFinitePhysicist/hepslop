@@ -1,0 +1,104 @@
+\documentclass[11pt]{article}
+\def\DoNotLoadEpstopdf{}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{enumitem,microtype,xcolor,tikz}
+\usepackage{graphicx}
+\usepackage[nottoc]{tocbibind}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\usepackage{feynhep}
+\hypersetup{pdftitle={DIPOLE: Dimensionally-Regularized Infrared-Safe Power-Suppressed Optimal Leading-Color Emissions},pdfauthor={The Physics Community}}
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=15
+
+\pdfgentounicode=1
+\pdfglyphtounicode{tfm:lmex10/parenleftbig}{0028}
+\pdfglyphtounicode{tfm:lmex10/parenrightbig}{0029}
+\pdfglyphtounicode{tfm:lmex10/bracketleftbig}{005B}
+\pdfglyphtounicode{tfm:lmex10/bracketrightbig}{005D}
+\pdfglyphtounicode{tfm:lmex10/braceleftbig}{007B}
+\pdfglyphtounicode{tfm:lmex10/bracerightbig}{007D}
+\pdfglyphtounicode{tfm:lmex10/radicalbig}{221A}
+\pdfglyphtounicode{tfm:lmex10/parenleftBig}{0028}
+\pdfglyphtounicode{tfm:lmex10/parenrightBig}{0029}
+\pdfglyphtounicode{tfm:lmex10/bracketleftBig}{005B}
+\pdfglyphtounicode{tfm:lmex10/bracketrightBig}{005D}
+\pdfglyphtounicode{tfm:lmex10/braceleftBig}{007B}
+\pdfglyphtounicode{tfm:lmex10/bracerightBig}{007D}
+\pdfglyphtounicode{tfm:lmex10/radicalBig}{221A}
+\pdfglyphtounicode{tfm:lmex10/parenleftbigg}{0028}
+\pdfglyphtounicode{tfm:lmex10/parenrightbigg}{0029}
+\pdfglyphtounicode{tfm:lmex10/bracketleftbigg}{005B}
+\pdfglyphtounicode{tfm:lmex10/bracketrightbigg}{005D}
+\pdfglyphtounicode{tfm:lmex10/braceleftbigg}{007B}
+\pdfglyphtounicode{tfm:lmex10/bracerightbigg}{007D}
+\pdfglyphtounicode{tfm:lmex10/radicalbigg}{221A}
+\pdfglyphtounicode{tfm:lmex10/parenleftBigg}{0028}
+\pdfglyphtounicode{tfm:lmex10/parenrightBigg}{0029}
+\pdfglyphtounicode{tfm:lmex10/bracketleftBigg}{005B}
+\pdfglyphtounicode{tfm:lmex10/bracketrightBigg}{005D}
+\pdfglyphtounicode{tfm:lmex10/braceleftBigg}{007B}
+\pdfglyphtounicode{tfm:lmex10/bracerightBigg}{007D}
+\pdfglyphtounicode{tfm:lmex10/radicalBigg}{221A}
+\pdfglyphtounicode{tfm:lmex10/summationtext}{2211}
+\pdfglyphtounicode{tfm:lmex10/summationdisplay}{2211}
+\pdfglyphtounicode{tfm:lmex10/integraltext}{222B}
+\pdfglyphtounicode{tfm:lmex10/integraldisplay}{222B}
+\pdfglyphtounicode{tfm:lmex10/producttext}{220F}
+\pdfglyphtounicode{tfm:lmex10/productdisplay}{220F}
+\pdfglyphtounicode{tfm:lmex10/contintegraltext}{222E}
+\setlength{\emergencystretch}{2em}
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\as}{\alpha_s}
+\newcommand{\CF}{C_F}
+\newcommand{\CA}{C_A}
+\newcommand{\TF}{T_F}
+\newcommand{\Nf}{n_f}
+\newcommand{\Pqq}{P_{qq}}
+\newcommand{\Pgq}{P_{gq}}
+\newcommand{\Pgg}{P_{gg}}
+\newcommand{\muR}{\mu_R}
+\newcommand{\muF}{\mu_F}
+\newcommand{\dPhi}{d\Phi}
+\newcommand{\sij}{s_{ij}}
+\newcommand{\kT}{k_T}
+\newcommand{\Li}{\mathrm{Li}}
+\newcommand{\softmax}{\mathrm{softmax}}
+\newcommand{\EMD}{\mathrm{EMD}}
+\newcommand{\LQCD}{\Lambda_{\rm QCD}}
+\newcommand{\zcut}{z_{\rm cut}}
+\newcommand{\Neff}{N_{\rm eff}}
+
+\title{DIPOLE: Dimensionally-Regularized Infrared-Safe Power-Suppressed Optimal Leading-Color Emissions}
+\author{The Physics Community}
+\date{September 18, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Few-shot hadronization corrections lie at the heart of lattice QCD. To
+this end, we visualize the sphalerons of the loss landscape of
+differential equations trained on CMS Open Data at 13 TeV with a
+conformal bootstrap. Our results show that ROC curves revolutionize the
+state-of-the-art nuisance parameter of diphoton production. These
+results pave the way for amplitude calculations to all orders in
+$\alpha_s$.
+\end{abstract}
+\tableofcontents
+\input{sections/introduction}
+\input{sections/anomaly-detection-wasserstein}
+\input{sections/conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

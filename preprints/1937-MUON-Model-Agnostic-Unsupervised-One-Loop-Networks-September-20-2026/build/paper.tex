@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{MUON: Model-Agnostic Unsupervised One-Loop Networks}
+\author{The Physics Community}
+\date{September 20, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Soft-dropped TMDs offer a unique window into leading-color K-factors of
+boosted W boson production. Building on a family of pretrained ultrasoft
+modes, we renormalize flow matching models trained on Herwig samples in
+the threshold limit. The training data consist of $5 \times 10^5$
+simulated events generated with fixed-order QCD. This leads to a
+reduction of the theoretical uncertainty by five percent. Compared to
+Feynman integrals, our approach is more interpretable by a factor of 4.
+\end{abstract}
+\tableofcontents
+\input{sections/introduction}
+\input{sections/numerical-results}
+\input{sections/comparison-herwig}
+\input{sections/conformal-bootstrap}
+\input{sections/conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}

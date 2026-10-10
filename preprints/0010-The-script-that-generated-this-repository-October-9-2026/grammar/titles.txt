@@ -1,0 +1,190 @@
+# titles
+<Title> -> <Adjective> <MethodPlural> for <Task>
+<Title> -> <Adjective> <ObservablePlural> at <OrderTitle>
+<Title> -> <Adjective> <ObservablePlural> at <OrderTitle>: <Subtitle>
+<Title> -> <PredicateNoun> of <Adjective> <ObservablePlural>
+<Title> -> on the <PredicateNoun> of <ObservablePlural>
+<Title> -> on the <PredicateNoun> of <Adjective> <ObservablePlural> in <Process>
+<Title> -> <ObservablePlural> from <Adjective> <MethodPlural>
+<Title> -> <TitleTechnique> meets <TitleTechnique>: <Task> in the <Region>
+<Title> -> towards <Adjective> <ObservablePlural> for <Task>
+<Title> -> <Adjective> <MethodPlural> and the <ObservableSingular> at <OrderTitle>
+<Title> -> a <LoopCount> <MethodSingular> for <ObservablePlural> in <Process>
+<Title> -> <Adjective> <Task> with <MethodPlural> and <ObservablePlural>
+<Title> -> the <ObservableSingular> of <Adjective> <ObservablePlural> beyond <OrderTitle>
+<Title> -> <Adjective> <Task> in <Dataset>
+<Title> -> <Adjective> <ObservablePlural> and <Adjective> <MethodPlural>: <Subtitle>
+<Title> -> <MethodPlural> for the <ObservableSingular> at <OrderTitle>
+<Title> -> learning the <ObservableSingular> with <Adjective> <MethodPlural>
+<Title> -> the <Adjective> <ObservableSingular> in the <Region>
+<Title> -> <Adjective> <ObservablePlural> as <Adjective> <MethodPlural>
+<Title> -> <TitleTechnique> is all you need
+<Title> -> <TitleTechnique> is all you need for <Task>
+<Title> -> <Adjective> <MethodPlural> are all you need for <Task>
+<Title> -> <ObservablePlural> are all you need
+<Title> -> attention is all you need for <ObservablePlural>
+<Title> -> the unreasonable effectiveness of <Adjective> <MethodPlural> in <Field>
+<Title> -> the unreasonable effectiveness of <ObservablePlural>
+<Title> -> towards a unified framework for <ObservablePlural> and <MethodPlural>
+<Title> -> towards a theory of everything for <ObservablePlural>
+<Title> -> rethinking <ObservablePlural>: <Subtitle>
+<Title> -> <ObservablePlural> revisited
+<Title> -> <Adjective> <ObservablePlural> revisited: <Subtitle>
+<Title> -> beyond <OrderTitle>: <Subtitle>
+<Title> -> a tale of two <ObservablePlural>
+<Title> -> demystifying <ObservablePlural> with <MethodPlural>
+<Title> -> taming <ObservablePlural> with <Adjective> <MethodPlural>
+<Title> -> unlocking the potential of <MethodPlural> for <Task>
+<Title> -> unleashing the power of <Adjective> <MethodPlural>
+<Title> -> harnessing <Adjective> <MethodPlural> for <Task>
+<Title> -> bridging the gap between <Field> and <Field>
+<Title> -> scaling laws for <ObservablePlural>
+<Title> -> scaling laws for <Adjective> <MethodPlural> in <Field>
+<Title> -> a paradigm shift in <Task>
+<Title> -> a new era of <Task>
+<Title> -> one model to rule them all: <Adjective> <MethodPlural> for <Task>
+<Title> -> <ObservablePlural> in the era of <MethodPlural>
+<Title> -> do <MethodPlural> dream of <ObservablePlural>?
+<Title> -> <ObservablePlural>, <ObservablePlural>, and everything in between
+<Title> -> to resum or not to resum: <Subtitle>
+<Title> -> a gentle introduction to <Adjective> <ObservablePlural>
+<Title> -> less is more: <Adjective> <ObservablePlural> for <Task>
+<Title> -> <Adjective> <ObservablePlural> at scale
+<Title> -> a deep dive into <Adjective> <ObservablePlural>
+<Title> -> shedding light on <ObservablePlural> with <MethodPlural>
+<Title> -> navigating the landscape of <Adjective> <ObservablePlural>
+<Title> -> the intricate interplay between <ObservablePlural> and <MethodPlural>
+<Title> -> <ObservablePlural> are secretly <MethodPlural>
+<Title> -> everything you always wanted to know about <ObservablePlural>
+<Title> -> <MethodPlural> are few-shot <Task> learners
+<Title> -> emergent <ObservablePlural> in <Adjective> <MethodPlural>
+<Title> -> foundation models for <ObservablePlural>: <Subtitle>
+<Title> -> chain-of-thought <Task>
+<Title> -> <ObservablePlural> matter: <Subtitle>
+<Title> -> mind the gap: <Adjective> <ObservablePlural> at <OrderTitle>
+<Title> -> a game-changing approach to <Task>
+<Title> -> <MethodPlural> meet <ObservablePlural>: a match made in heaven
+<Title> -> the hitchhiker's guide to <Adjective> <ObservablePlural>
+<Title> -> one loop to rule them all
+<Title> -> <Adjective> <ObservablePlural>: the good, the bad, and the <Adjective>
+<Subtitle> -> a <Adjective> approach
+<Subtitle> -> theory and phenomenology
+<Subtitle> -> an analytic study
+<Subtitle> -> the case of <Process>
+<Subtitle> -> results at <OrderTitle>
+<Subtitle> -> a case study in <Dataset>
+<Subtitle> -> from <OrderTitle> to <OrderTitle>
+<Subtitle> -> resummation meets machine learning
+<Subtitle> -> a proof of concept
+<Subtitle> -> the <Adjective> limit
+<Subtitle> -> a unified framework
+<Subtitle> -> a paradigm shift
+<Subtitle> -> lessons learned
+<Subtitle> -> a comprehensive study
+<Subtitle> -> towards <Adjective> <Task>
+<Subtitle> -> a new hope
+<Subtitle> -> the missing piece
+<Subtitle> -> a roadmap
+<Subtitle> -> what could possibly go wrong
+<TitleTechnique> -> CWOLA
+<TitleTechnique> -> DGLAP
+<TitleTechnique> -> SCET
+<TitleTechnique> -> CATHODE
+<TitleTechnique> -> Sinkhorn
+<TitleTechnique> -> soft drop
+<TitleTechnique> -> the Lund plane
+<TitleTechnique> -> Catani-Seymour
+<TitleTechnique> -> antenna subtraction
+<TitleTechnique> -> OmniFold
+<TitleTechnique> -> DCTR
+<TitleTechnique> -> MLLA
+<TitleTechnique> -> BFKL
+<TitleTechnique> -> the Sudakov factor
+<TitleTechnique> -> Deep Sets
+<TitleTechnique> -> attention
+<TitleTechnique> -> optimal transport
+<TitleTechnique> -> the KLN theorem
+<TitleTechnique> -> resummation
+<TitleTechnique> -> a transformer
+<TitleTechnique> -> one loop
+<TitleTechnique> -> a normalizing flow
+<Region> -> Lund plane
+<Region> -> collinear limit
+<Region> -> signal region
+<Region> -> sidebands
+<Region> -> soft limit
+<Region> -> back-to-back region
+<Region> -> latent space
+<Region> -> Wasserstein space
+<Region> -> dead cone
+<Region> -> Sudakov region
+<LoopCount> -> one-loop
+<LoopCount> -> two-loop
+<LoopCount> -> three-loop
+<LoopCount> -> four-loop
+<Dataset> -> CMS Open Data
+<Dataset> -> ALEPH archival data
+<Dataset> -> simulated LHC data
+<Dataset> -> Pythia samples
+<Dataset> -> Herwig samples
+<Dataset> -> the LHC Olympics dataset
+<OrderTitle> -> next-to-leading order
+<OrderTitle> -> NNLO
+<OrderTitle> -> NNLL
+<OrderTitle> -> N3LL
+<OrderTitle> -> two loops
+<OrderTitle> -> three loops
+<OrderTitle> -> leading power
+<OrderTitle> -> next-to-leading power
+<OrderTitle> -> all orders
+<OrderTitle> -> leading color
+<OrderTitle> -> next-to-leading logarithmic accuracy
+<Task> -> jet tagging
+<Task> -> anomaly detection
+<Task> -> top tagging
+<Task> -> quark/gluon discrimination
+<Task> -> boosted object identification
+<Task> -> resonance searches
+<Task> -> event generation
+<Task> -> unfolding
+<Task> -> strong coupling extraction
+<Task> -> precision QCD
+<Task> -> collider phenomenology
+<Task> -> new physics searches
+<Task> -> parton shower tuning
+<Task> -> calorimeter simulation
+<Task> -> pileup mitigation
+<Task> -> jet calibration
+<Task> -> simulation-based inference
+<Task> -> bump hunting
+<Task> -> weakly supervised classification
+<Task> -> jet substructure
+
+# families
+<FamilyTitle> -> <Adjective> <ObservablePlural> and <Task>
+<FamilyTitle> -> the <ObservableSingular> at <Order>
+<FamilyTitle> -> <PredicateNoun> of the <Adjective> <ObservableSingular>
+<FamilyTitle> -> <MethodPlural> for <Task>
+<FamilyTitle> -> <PredicateNoun> of <ObservablePlural> in the <Limit>
+<FamilyTitle> -> <Adjective> <ObservablePlural> and the <ObservableSingular>
+<FamilySummary> -> Proves that <NounPhraseSingular> <VerbSingular> <AnyNounPhrase> <Qualifier>.
+<FamilySummary> -> Shows that <NounPhrasePlural> are <PredicateAdjective> <Qualifier>, and that <NounPhraseSingular> <VerbSingular> <AnyNounPhrase>.
+<FamilySummary> -> Computes <NounPhraseSingular> at <Order> and shows that it <VerbSingular> <AnyNounPhrase>. Together with <ResultRef>, this gives <IndefiniteNounPhrase> for <Task>.
+<FamilySummary> -> Constructs <IndefiniteNounPhrase> for <Task> and proves that it is <PredicateAdjective> <Qualifier>.
+<FamilySummary> -> Establishes that <NounPhrasePlural> <VerbPlural> <AnyNounPhrase> <Qualifier>. Together with <ResultRef>, this settles the <PredicateNoun> of <NounPhrasePlural>.
+<FamilySummary> -> Introduces <IndefiniteNounPhrase> that paves the way for <Task> and proves that <NounPhraseSingular> is <PredicateAdjective> <Qualifier>.
+<PredicateNoun> -> positivity
+<PredicateNoun> -> universality
+<PredicateNoun> -> infrared safety
+<PredicateNoun> -> factorization
+<PredicateNoun> -> finiteness
+<PredicateNoun> -> uniqueness
+<PredicateNoun> -> calibration
+<PredicateNoun> -> resummation
+<PredicateNoun> -> renormalization
+<PredicateNoun> -> gauge invariance
+<PredicateNoun> -> interpretability
+<PredicateNoun> -> stability
+<PredicateNoun> -> expressivity
+<PredicateNoun> -> exponentiation
+<PredicateNoun> -> Casimir scaling

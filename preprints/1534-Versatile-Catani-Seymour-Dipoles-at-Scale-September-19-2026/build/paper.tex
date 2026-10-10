@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{Versatile Catani-Seymour Dipoles at Scale}
+\author{The Physics Community}
+\date{September 19, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Despite decades of work, K-factors remain poorly understood beyond
+leading power. However, existing approaches to fast simulation neglect
+BRST-invariant cut integrals. Harnessing the power of lattice
+simulations, we fit the dispersive approach up to terms of order
+$\alpha_s^3$. We neglect quark masses throughout. The event weight
+distribution exhibits a striking dependence on $\theta$. This work paves
+the way for a new generation of flow matching models.
+\end{abstract}
+\tableofcontents
+\input{sections/introduction}
+\input{sections/local-analytic-sector}
+\input{sections/resummation-wasserstein-distance}
+\input{sections/slavnovtaylor-identity-nexttoleading}
+\input{sections/conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

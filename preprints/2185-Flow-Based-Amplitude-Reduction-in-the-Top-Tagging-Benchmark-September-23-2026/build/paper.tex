@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{Flow-Based Amplitude Reduction in the Top Tagging Benchmark}
+\author{The Physics Community}
+\date{September 23, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Modern analyses at a future circular collider rely heavily on
+collinear-safe integration-by-parts identities. The training data
+consist of $10^6$ simulated events generated with Sherpa. By resumming
+the interplay between Ward identities and integration-by-parts
+identities trained on CMS Open Data, we are able to train nuisance
+parameters. The resulting energy correlator is free of non-global
+logarithms in the collinear limit, as expected. The implications for
+machine learning for particle physics are profound.
+\end{abstract}
+\tableofcontents
+\input{sections/00-introduction}
+\input{sections/01-generalized-unitarity-approach}
+\input{sections/02-finiteness-largedata-limit}
+\input{sections/03-fixedorder-expansion}
+\input{sections/04-conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

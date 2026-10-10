@@ -1,0 +1,179 @@
+# more titles
+<Title> -> <ObservablePlural> for <Task> at <Collider>
+<Title> -> <Adjective> <ObservablePlural> for <Process> at <OrderTitle>
+<Title> -> <ObservableSingular> resummation for <Process>
+<Title> -> the <ObservableSingular> at <OrderTitle> in <Process>
+<Title> -> <Adjective> <MethodPlural> for <ObservablePlural> in <Dataset>
+<Title> -> <Task> with <Adjective> <MethodPlural> at <Collider>
+<Title> -> <Adjective> <Task> via <ObservablePlural>
+<Title> -> <ObservablePlural> and <ObservablePlural> at <OrderTitle>
+<Title> -> <ObservablePlural> beyond <OrderTitle>
+<Title> -> <ObservablePlural> without <ObservablePlural>
+<Title> -> <ObservablePlural> through the lens of <MethodPlural>
+<Title> -> <ObservablePlural> from first principles
+<Title> -> <ObservablePlural> from <ObservablePlural>
+<Title> -> <MethodPlural> as <ObservablePlural>
+<Title> -> <MethodPlural> know <ObservablePlural>
+<Title> -> what do <MethodPlural> learn about <ObservablePlural>?
+<Title> -> can <MethodPlural> learn <ObservablePlural>?
+<Title> -> can you hear the <ObservableSingular>?
+<Title> -> how <Adjective> are <ObservablePlural>?
+<Title> -> are <ObservablePlural> <PredicateAdjective>?
+<Title> -> is the <ObservableSingular> <PredicateAdjective>?
+<Title> -> why <ObservablePlural> are <PredicateAdjective>
+<Title> -> when do <ObservablePlural> become <PredicateAdjective>?
+<Title> -> where are the <ObservablePlural>?
+<Title> -> a <Adjective> perspective on <ObservablePlural>
+<Title> -> a <Adjective> view of the <ObservableSingular>
+<Title> -> a <Adjective> theory of <ObservablePlural>
+<Title> -> a <Adjective> approach to <Task>
+<Title> -> a <Adjective> benchmark for <Task>
+<Title> -> a <Adjective> dataset for <Task>
+<Title> -> a <Adjective> framework for <ObservablePlural> and <Task>
+<Title> -> a <LoopCount> calculation of the <ObservableSingular>
+<Title> -> a <LoopCount> study of <ObservablePlural> in the <Limit>
+<Title> -> the <ObservableSingular> in the <Limit> at <OrderTitle>
+<Title> -> the <ObservableSingular> to <OrderTitle> and beyond
+<Title> -> the <PredicateNoun> of the <ObservableSingular>
+<Title> -> the <PredicateNoun> of <MethodPlural> for <Task>
+<Title> -> the role of <ObservablePlural> in <Task>
+<Title> -> the geometry of <ObservablePlural>
+<Title> -> the shape of <ObservablePlural>
+<Title> -> the statistics of <ObservablePlural>
+<Title> -> the many faces of the <ObservableSingular>
+<Title> -> the <ObservableSingular> strikes back
+<Title> -> the return of the <ObservableSingular>
+<Title> -> the <ObservableSingular> awakens
+<Title> -> on the <Adjective> <ObservableSingular> and its <PredicateNoun>
+<Title> -> on <ObservablePlural> and <ObservablePlural>
+<Title> -> notes on <Adjective> <ObservablePlural>
+<Title> -> remarks on the <ObservableSingular> at <OrderTitle>
+<Title> -> comments on <ObservablePlural> in <Process>
+<Title> -> lectures on <Adjective> <ObservablePlural>
+<Title> -> a primer on <ObservablePlural> for <Task>
+<Title> -> a pedagogical introduction to <MethodPlural>
+<Title> -> a critical assessment of <Adjective> <MethodPlural>
+<Title> -> a systematic study of <ObservablePlural> at <Collider>
+<Title> -> a comprehensive survey of <MethodPlural> for <Task>
+<Title> -> a closer look at <ObservablePlural>
+<Title> -> a new look at the <ObservableSingular>
+<Title> -> a fresh look at <ObservablePlural> in the <Limit>
+<Title> -> new results on the <ObservableSingular>
+<Title> -> novel <ObservablePlural> for <Task>
+<Title> -> improved <ObservablePlural> at <OrderTitle>
+<Title> -> precision <ObservablePlural> at <Collider>
+<Title> -> fast and accurate <ObservablePlural> with <MethodPlural>
+<Title> -> efficient <Task> with <Adjective> <MethodPlural>
+<Title> -> robust <Task> in the presence of <ObservablePlural>
+<Title> -> learning to <WeVerb> <ObservablePlural>
+<Title> -> learning <ObservablePlural> from <Dataset>
+<Title> -> towards <Adjective> <Task> at <Collider>
+<Title> -> towards the <ObservableSingular> at <OrderTitle>
+<Title> -> towards AGI for <Task>
+<Title> -> <Adjective> <ObservablePlural>, explained
+<Title> -> <ObservablePlural>: a <Adjective> approach
+<Title> -> <ObservablePlural>: past, present, and future
+<Title> -> <ObservablePlural>: theory meets experiment
+<Title> -> <Task>: a <Adjective> renaissance
+<Title> -> <Task> in the age of foundation models
+<Title> -> <Task> in the large language model era
+<Title> -> <Task> with large language models: <Subtitle>
+<Title> -> <ObservablePlural> are not what you think
+<Title> -> <ObservablePlural> considered harmful
+<Title> -> <ObservablePlural> in one line of code
+<Title> -> <ObservablePlural> for free
+<Title> -> everything is a <ObservableSingular>
+<Title> -> it's <ObservablePlural> all the way down
+<Title> -> one <ObservableSingular> to rule them all
+<Title> -> all you need is <ObservablePlural>
+<Title> -> <MethodPlural> are all you need for <ObservablePlural>
+
+# more subtitles
+<Subtitle> -> a new paradigm
+<Subtitle> -> beyond the state of the art
+<Subtitle> -> scaling up
+<Subtitle> -> a first look
+<Subtitle> -> a complete classification
+<Subtitle> -> a no-go theorem
+<Subtitle> -> a positive result
+<Subtitle> -> an open-source implementation
+<Subtitle> -> a reality check
+<Subtitle> -> a call to action
+<Subtitle> -> the full story
+<Subtitle> -> the next frontier
+<Subtitle> -> the final frontier
+<Subtitle> -> a long-standing puzzle resolved
+<Subtitle> -> a surprising connection
+<Subtitle> -> a hidden symmetry
+<Subtitle> -> a geometric approach
+<Subtitle> -> an information-theoretic approach
+<Subtitle> -> an optimal transport approach
+<Subtitle> -> a machine learning approach
+<Subtitle> -> applications to <Process>
+<Subtitle> -> implications for <Task>
+<Subtitle> -> with applications to <Task>
+<Subtitle> -> lessons from <Dataset>
+<Subtitle> -> evidence from <Dataset>
+<Subtitle> -> part <SmallInteger>
+
+# more acronyms
+<Acronym> -> PROTON
+<Acronym> -> FERMION
+<Acronym> -> GRAVITON
+<Acronym> -> TACHYON
+<Acronym> -> MONOPOLE
+<Acronym> -> INSTANTON
+<Acronym> -> SPINOR
+<Acronym> -> TENSOR
+<Acronym> -> VECTOR
+<Acronym> -> SCALAR
+<Acronym> -> HELIX
+<Acronym> -> BRANE
+<Acronym> -> STRING
+<Acronym> -> LOOP
+<Acronym> -> TREE
+<Acronym> -> GHOST
+<Acronym> -> CHARM
+<Acronym> -> BEAUTY
+<Acronym> -> TRUTH
+<Acronym> -> STRANGE
+<Acronym> -> FLAVOR
+<Acronym> -> SPIN
+<Acronym> -> ORBIT
+<Acronym> -> PULSAR
+<Acronym> -> NEBULA
+<Acronym> -> COMET
+<Acronym> -> GALAXY
+<Acronym> -> CHAOS
+<Acronym> -> ENTROPY
+<Acronym> -> CHEESE
+<Acronym> -> BUTTER
+<Acronym> -> COOKIE
+<Acronym> -> WALRUS
+<Acronym> -> OTTER
+<Acronym> -> BADGER
+<Acronym> -> FERRET
+<Acronym> -> PIGEON
+<Acronym> -> MOOSE
+<Acronym> -> BEAVER
+<Acronym> -> SALAMI
+<Acronym> -> TOFU
+<Acronym> -> KALE
+<Acronym> -> BROCCOLI
+<Acronym> -> HYPERSCALE
+<Acronym> -> AGENT
+<Acronym> -> PROMPT
+<Acronym> -> TOKEN
+<Acronym> -> BENCHMARK
+<Acronym> -> FRONTIER
+<Acronym> -> ALIGNMENT
+<Acronym> -> SUPERINTELLIGENCE
+<Acronym> -> SINGULARITY
+<Acronym> -> VALUATION
+<Acronym> -> RUNWAY
+<Acronym> -> PIVOT
+<Acronym> -> VIRAL
+<Acronym> -> CRINGE
+<Acronym> -> DELULU
+<Acronym> -> SLAY
+<Acronym> -> VIBE

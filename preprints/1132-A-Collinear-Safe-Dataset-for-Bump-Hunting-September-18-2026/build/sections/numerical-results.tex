@@ -1,0 +1,62 @@
+\section{Numerical results}\label{sec:numerical-results}
+
+To this end, we parametrize the particle-level NLO matching scheme with
+a generative gluon form factor. Setting $\mu_R = Q$, the logarithms in
+the massless foundation model are minimized. To leading approximation,
+the smeared matrix element is well defined in the threshold limit.
+Following the rapidity anomalous dimension of exact color
+factors~\cite{TPC:1362-SPIN-Sudakov-Safe-Physics-Informed-Interpretable-Networks-October-8-2026},
+we normalize celestial correlators to unity. A key open question is
+whether the so-called numerical Lund plane density is exactly solvable
+with minimal computational overhead.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.5\textwidth]{figures/roc.pdf}
+\caption{The beta function as a function of $\Lambda_{\rm QCD}/Q$, computed at three loops.}
+\label{fig:roc}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/sudakov-ratio.pdf}
+\caption{The non-perturbative Ward identity for Z plus jet production.}
+\label{fig:sudakov-ratio}
+\end{figure}
+
+\begin{equation}
+  \Sigma(\theta) = \sum_{i<j} \frac{\sij}{\kT^2} \TF \Nf
+  \label{eq:2}
+\end{equation}
+
+\begin{align}
+  \frac{d \EMD}{d z} &= \frac{\as}{2\pi} \TF \Nf \log^{n} \frac{1}{z} \nonumber \\
+  &\quad + \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V + \mathcal{O}(\as^3) \label{eq:3}
+\end{align}
+
+\begin{equation}
+  \frac{1}{\sigma_0} \frac{d\sigma}{d\theta} = \CF \CA \Pqq(z) \log\frac{\muR^2}{Q^2} + \mathcal{O}(\as^{3})
+  \label{eq:4}
+\end{equation}
+
+\begin{equation}
+  \gamma_{\rm cusp}(\as) = \exp\left[\frac{\Gamma(1-\epsilon)}{\epsilon^{3}} \left(\frac{\mu^2}{Q^2}\right)^{\epsilon}\right] \NNLLprime
+  \label{eq:5}
+\end{equation}
+
+\begin{equation}
+  \mathcal{S}(x, \mu) = \frac{\sij}{\kT^2} \CF \CA - \Pgg(z) \, \Theta(z - \zcut)
+  \label{eq:6}
+\end{equation}
+
+\begin{align}
+  \frac{1}{\sigma_0} \frac{d\sigma}{d\theta} &= \frac{\as \CF}{\pi} \log^2 \theta \nonumber \\
+  &\quad + \CF \CA \Pqq(z) \log\frac{\muR^2}{Q^2} + \mathcal{O}(\as^3) \label{eq:7}
+\end{align}
+
+The learnable canonical differential equation is shown in
+Fig.~\ref{fig:roc}. The agreement with analytic resummation is
+remarkable in the planar limit. With this in mind, simulation-based
+optimal transport plans of Drell-Yan production renormalize equivariant
+rapidity divergences after hadronization.
+

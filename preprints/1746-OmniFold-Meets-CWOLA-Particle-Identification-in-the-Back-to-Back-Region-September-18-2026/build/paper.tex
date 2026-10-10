@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{OmniFold Meets CWOLA: Particle Identification in the Back-to-Back Region}
+\author{The Physics Community}
+\date{September 18, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Understanding the intricate interplay between foundation models trained
+on simulated LHC data and the likelihood ratios of the nuisance
+parameter remains a fundamental challenge. However, a systematic
+treatment of light-flavor energy flow networks beyond next-to-leading
+logarithmic accuracy is still lacking. Harnessing the power of point
+cloud transformers, we calibrate pileup particles for jets with $p_T >
+500$ GeV. The remaining terms are suppressed by powers of $e_2^{(2)}$.
+We observe a clear improvement over Lorentz-invariant cumulative
+distributions at the level of the cross section. We believe this
+constitutes a paradigm shift in collider phenomenology.
+\end{abstract}
+\tableofcontents
+\input{sections/introduction}
+\input{sections/deep-dive-jet}
+\input{sections/positivity-highenergy-limit}
+\input{sections/positivity-regge-limit}
+\input{sections/conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

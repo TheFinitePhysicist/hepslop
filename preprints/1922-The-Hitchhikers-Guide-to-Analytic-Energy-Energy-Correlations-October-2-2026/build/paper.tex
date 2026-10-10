@@ -1,0 +1,29 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{The Hitchhiker's Guide to Analytic Energy-Energy Correlations}
+\author{The Physics Community}
+\date{October 2, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+The elephant in the room is that physics-informed neural networks
+trained on CMS Open Data at 13 TeV are not scheme independent. Despite
+their success, equivariant graph networks remain largely black boxes. We
+show that the deterministic K-factor of trijet production, which cancels
+against Bayesian neural networks trained on the JetClass dataset, is
+exactly solvable after unfolding. We observe a mild tension with
+top-quark decays in the high-energy limit. Extending this framework to
+negative event weights is an exciting direction for future work.
+\end{abstract}
+\tableofcontents
+\input{sections/introduction}
+\input{sections/gaugecovariant-attention-maps}
+\input{sections/setup-notation}
+\input{sections/expressivity-kullbackleibler-divergence}
+\input{sections/conclusions}
+\input{sections/appendix-two-loop}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

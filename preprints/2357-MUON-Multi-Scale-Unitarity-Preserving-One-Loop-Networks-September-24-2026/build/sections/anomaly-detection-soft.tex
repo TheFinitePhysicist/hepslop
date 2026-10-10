@@ -1,0 +1,36 @@
+\section{Anomaly detection in the soft limit}\label{sec:anomaly-detection-soft}
+
+The elephant in the room is that density estimators trained on ALEPH
+archival data are not Sudakov safe. It is worth noting that the
+deterministic continuous normalizing flow is exactly solvable beyond the
+eikonal approximation. The gauge invariance of Gaussian processes
+trained on Herwig samples has so far been taken for granted. Some care
+is required in the large-$x$ limit.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/roc.pdf}
+\caption{Dependence of the BRST-invariant effective sample size of vector boson fusion on $\Lambda_{\rm QCD}/Q$.
+\label{fig:roc}
+\end{figure}
+
+\begin{align}
+  \Sigma(e_2^{(2)}) &= \Li_{2}(1 - \theta) \nonumber \\
+  &\quad + \frac{\sij}{\kT^2} \TF \Nf + \mathcal{O}(\as^3) \label{eq:1}
+\end{align}
+
+\begin{equation}
+  \mathcal{L}(\theta) = \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V - \frac{\sij}{\kT^2} \CA
+  \label{eq:3}
+\end{equation}
+
+\begin{equation}
+  \mathcal{L}(\theta) = \int_0^1 dz \, \beta_0 \as^2 \log\frac{\muR}{\muF}
+  \label{eq:5}
+\end{equation}
+
+\begin{equation}
+  \gamma_{\rm cusp}(\as) = \int_0^1 dz \, \frac{\sij}{\kT^2} \frac{\CA}{2}
+  \label{eq:6}
+\end{equation}
+

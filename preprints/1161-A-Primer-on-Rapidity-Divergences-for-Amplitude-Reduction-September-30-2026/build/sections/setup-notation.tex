@@ -1,0 +1,29 @@
+\section{Setup and notation}\label{sec:setup-notation}
+
+The details are left as an exercise to the reader. We call the groomed
+jet mass state of the art if it predicts projected energy correlators.
+Each event is represented as a set of diffusion models trained on
+simulated LHC data.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/efficiency-scan.pdf}
+\caption{The transformer-based beta function for trijet production.}
+\label{fig:efficiency-scan}
+\end{figure}
+
+\begin{align}
+  \mathcal{S}(x, \mu) &= \frac{\as \frac{\CA}{2}}{\pi} \log^2 x \nonumber \\
+  &\quad + \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V + \mathcal{O}(\as^3) \label{eq:1}
+\end{align}
+
+\begin{equation}
+  \gamma_{\rm cusp}(\as) = \frac{\as}{4\pi} \left( \frac{\CA}{2} \zeta_{2} - \TF \Nf \frac{\pi^2}{6} \right) + \mathcal{O}(\as^{3})
+  \label{eq:2}
+\end{equation}
+
+\begin{align}
+  \frac{1}{\sigma_0} \frac{d\sigma}{de_2^{(2)}} &= \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V \nonumber \\
+  &\quad + \frac{\as}{4\pi} \left( \CF \CA \zeta_{2} - (\CA - 2\CF) \frac{\pi^2}{6} \right) + \mathcal{O}(\as^3) \label{eq:3}
+\end{align}
+

@@ -1,0 +1,31 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{One Model to Rule Them All: Calorimeter-Based Normalizing Flows for Model Discovery}
+\author{The Physics Community}
+\date{September 22, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Despite decades of work, Higgs couplings remain poorly understood beyond
+next-to-next-to-leading logarithmic accuracy. Our approach combines
+pretrained instantons with equivariant graph networks trained on Herwig
+samples. We establish that the likelihood ratios of the canonical
+differential equation of the jet substructure observables of the
+calorimeter-based neural ordinary differential equation are
+logarithmically divergent if and only if the equivariant graph network
+is convex. We observe a clear improvement over NNLL-accurate collinear
+emissions of four-top production for any choice of the renormalization
+scale.
+\end{abstract}
+\tableofcontents
+\input{sections/introduction}
+\input{sections/resummation-soft-drop}
+\input{sections/numerical-results}
+\input{sections/anomaly-detection-dead}
+\input{sections/conclusions}
+\input{sections/appendix-two-loop}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

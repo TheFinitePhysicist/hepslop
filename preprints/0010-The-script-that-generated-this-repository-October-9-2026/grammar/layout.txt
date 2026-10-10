@@ -1,0 +1,140 @@
+# sections
+<SectionTitle> -> <PredicateNoun> of the <ObservableSingular>
+<SectionTitle> -> the <ObservableSingular> at <Order>
+<SectionTitle> -> numerical results
+<SectionTitle> -> training and calibration
+<SectionTitle> -> <Adjective> <ObservablePlural>
+<SectionTitle> -> comparison with <Generator>
+<SectionTitle> -> fixed-order expansion
+<SectionTitle> -> factorization and resummation
+<SectionTitle> -> anomaly detection in the <Region>
+<SectionTitle> -> setup and notation
+<SectionTitle> -> the <MethodSingular>
+<SectionTitle> -> <PredicateNoun> in the <Limit>
+<SectionTitle> -> a deep dive into <ObservablePlural>
+<SectionTitle> -> the elephant in the <Region>
+
+# figures
+<Caption> -> the <ObservableSingular> as a function of $<MathVariable>$, computed at <Order>.
+<Caption> -> distribution of <NounPhrasePlural> for <Process> at <Energy>.
+<Caption> -> performance of <IndefiniteNounPhrase> in the <Region>.
+<Caption> -> the <Adjective> <ObservableSingular> for <Process>.
+<Caption> -> dependence of <NounPhraseSingular> on $<MathVariable>$.
+<FigureName> -> sudakov-ratio
+<FigureName> -> lund-density
+<FigureName> -> roc
+<FigureName> -> efficiency-scan
+<FigureName> -> correlator-spectrum
+<FigureName> -> soft-function
+<FigureName> -> cusp-scan
+<FigureName> -> emd-distribution
+<FigureName> -> latent-moments
+<FigureName> -> weight-distribution
+<FigureName> -> pull-distribution
+<FigureName> -> background-rejection
+<FigureName> -> zcut-scan
+<FigureName> -> rapidity-gap
+<FigureName> -> thrust
+<FigureName> -> multiplicity
+<FigureXLabel> -> $\tau$
+<FigureXLabel> -> $z_{\rm cut}$
+<FigureXLabel> -> $\rho$
+<FigureXLabel> -> $\theta / R$
+<FigureXLabel> -> $e_2^{(2)}$
+<FigureXLabel> -> $x$
+<FigureXLabel> -> Signal Efficiency
+<FigureXLabel> -> $N_{\rm eff} / N$
+<FigureYLabel> -> $\frac{1}{\sigma} \frac{d\sigma}{d\tau}$
+<FigureYLabel> -> Background Rejection
+<FigureYLabel> -> Normalized Cross Section
+<FigureYLabel> -> $\Sigma(\tau)$
+<FigureYLabel> -> Density
+<FigureYLabel> -> AUC
+<FigureYLabel> -> Probability Density
+<FigureLegend> -> NNLL
+<FigureLegend> -> NLO
+<FigureLegend> -> Transformer
+<FigureLegend> -> Pythia
+<FigureLegend> -> CWOLA
+<FigureLegend> -> Flow
+<FigureLegend> -> Herwig
+<FigureLegend> -> EFN
+<FigureStampTitle> -> Two-Loop Soft Function
+<FigureStampTitle> -> Boosted Top Tagging
+<FigureStampTitle> -> Energy Correlators
+<FigureStampTitle> -> Lund Plane Density
+<FigureStampTitle> -> Anomaly Detection
+<FigureStampTitle> -> Thrust at NNLL
+<FigureStampTitle> -> Quark/Gluon Tagging
+<FigureStampDetail> -> $\sqrt{s} = 13$ TeV
+<FigureStampDetail> -> $\sqrt{s} = 91.2$ GeV
+<FigureStampDetail> -> anti-$k_T$, $R = 0.8$
+<FigureStampDetail> -> $\alpha_s(m_Z) = 0.118$
+<FigureStampDetail> -> $p_T > 500$ GeV
+
+# history entries
+<FixPhrase> -> repaired the <Adjective> <ObservableSingular> argument and clarified which results are used as inputs
+<FixPhrase> -> corrected the statement of the <PredicateNoun> theorem and added a counterexample in the <Limit>
+<FixPhrase> -> revised the <ObservableSingular> estimates
+<FixPhrase> -> expanded the <PredicateNoun> argument and clarified the required hypotheses
+<FixPhrase> -> removed an obsolete citation to a withdrawn companion manuscript
+<WithdrawalReason> -> a sign error in the <Adjective> <ObservableSingular> invalidates the <PredicateNoun> argument
+<WithdrawalReason> -> a missing color factor in the <ObservableSingular> invalidates the <PredicateNoun> argument
+<WithdrawalReason> -> an incorrect expansion of the <ObservableSingular> in the <Limit> invalidates the <PredicateNoun> argument
+
+# equations
+<Equation> -> <EquationLeft> = <EquationRight>
+<EquationLeft> -> \frac{1}{\sigma_0} \frac{d\sigma}{d<EquationVariable>}
+<EquationLeft> -> \Sigma(<EquationVariable>)
+<EquationLeft> -> \mathcal{M}^{(<LoopIndex>)}
+<EquationLeft> -> \gamma_{\rm cusp}(\as)
+<EquationLeft> -> \mathcal{S}(<EquationVariable>, \mu)
+<EquationLeft> -> \frac{d \EMD}{d <EquationVariable>}
+<EquationLeft> -> \mathcal{L}(\theta)
+<EquationLeft> -> F(<EquationVariable>)
+<EquationLeft> -> R(<EquationVariable>)
+<EquationRight> -> <EquationTerm>
+<EquationRight> -> <EquationTerm> + <EquationTerm>
+<EquationRight> -> <EquationTerm> - <EquationTerm>
+<EquationRight> -> <EquationTerm> + \mathcal{O}(\as^{<Power>})
+<EquationRight> -> \exp\left[<EquationTerm>\right]
+<EquationRight> -> \int_0^1 dz \, <EquationTerm>
+<EquationRight> -> \sum_{i<j} <EquationTerm>
+<EquationTerm> -> \frac{\as}{2\pi} <EquationColor> \log^{<Power>} \frac{1}{<EquationVariable>}
+<EquationTerm> -> \frac{\as <EquationColor>}{\pi} \log^2 <EquationVariable>
+<EquationTerm> -> <EquationColor> \Pqq(z) \log\frac{\muR^2}{Q^2}
+<EquationTerm> -> \frac{\as}{4\pi} \left( <EquationColor> \zeta_{<ZetaIndex>} - <EquationColor> \frac{\pi^2}{6} \right)
+<EquationTerm> -> \frac{\Gamma(1-\epsilon)}{\epsilon^{<Power>}} \left(\frac{\mu^2}{Q^2}\right)^{\epsilon}
+<EquationTerm> -> \int \dPhi_{<SmallInteger>} \, |\mathcal{M}|^2 \, \delta(<EquationVariable> - \hat{<EquationVariable>})
+<EquationTerm> -> \frac{\sij}{\kT^2} <EquationColor>
+<EquationTerm> -> \beta_0 \as^2 \log\frac{\muR}{\muF}
+<EquationTerm> -> \Li_{<SmallInteger>}(1 - <EquationVariable>)
+<EquationTerm> -> \softmax\left(\frac{Q K^T}{\sqrt{d}}\right) V
+<EquationTerm> -> {<EquationVariable>}^{<Power>} (1 - <EquationVariable>)^{<SmallInteger>}
+<EquationTerm> -> \Pgg(z) \, \Theta(z - \zcut)
+<EquationVariable> -> \tau
+<EquationVariable> -> z
+<EquationVariable> -> \rho
+<EquationVariable> -> \theta
+<EquationVariable> -> x
+<EquationVariable> -> e_2^{(2)}
+<EquationColor> -> \CF
+<EquationColor> -> \CA
+<EquationColor> -> \TF \Nf
+<EquationColor> -> \CF \CA
+<EquationColor> -> \CF^2
+<EquationColor> -> (\CA - 2\CF)
+<EquationColor> -> \frac{\CA}{2}
+<Power> -> 2
+<Power> -> 3
+<Power> -> 4
+<Power> -> n
+<LoopIndex> -> 0
+<LoopIndex> -> 1
+<LoopIndex> -> 2
+<ZetaIndex> -> 2
+<ZetaIndex> -> 3
+<ZetaIndex> -> 5
+<SmallInteger> -> 2
+<SmallInteger> -> 3
+<SmallInteger> -> 4

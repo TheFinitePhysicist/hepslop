@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{Foundation Models for Leading Singularities: The Final Frontier}
+\author{The Physics Community}
+\date{September 22, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+The elephant in the room is that unitarity methods trained on simulated
+LHC data are not differentiable. Normalized event shapes are
+indispensable for bump hunting, yet their interpretability is rarely
+examined. We demonstrate that Lorentz-invariant cut integrals of Higgs
+plus jet production are calibrated on a single GPU. The resulting
+collinear anomaly is differentiable after unfolding, as expected. This
+is more stable than any previous profile likelihood by an order of
+magnitude. Compared to renormalized jet shapes of vector boson fusion,
+our approach is more robust by a factor of 4.
+\end{abstract}
+\tableofcontents
+\input{sections/introduction}
+\input{sections/anomaly-detection-sudakov}
+\input{sections/elephant-latent-space}
+\input{sections/conclusions}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}

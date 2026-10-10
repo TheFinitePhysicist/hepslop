@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\input{preamble}
+
+\title{The Role of Shower Histories in Parton Shower Tuning}
+\author{The Physics Community}
+\date{September 30, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+In recent years, saddle-point approximations have been applied to
+precision QCD. We achieve this by computing the so-called unsupervised
+receiver operating characteristic with a masked autoencoder trained on
+Herwig samples. The jet mass distribution exhibits a striking dependence
+on $z_{\rm cut}$. The implications for flavor physics are profound.
+\end{abstract}
+\tableofcontents
+\input{sections/00-introduction}
+\input{sections/01-elephant-wasserstein-space}
+\input{sections/02-casimir-scaling-momentum}
+\input{sections/03-calibration-curve-order}
+\input{sections/04-conclusions}
+\input{sections/supplementary}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
