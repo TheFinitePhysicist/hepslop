@@ -21,23 +21,6 @@ The current catalog contains over 2000 manuscripts.
 - The [Lean library](lean/README.md) describes the available formal proofs. Unlike OpenAI, we have endeavored to only upload formal proofs that have already been certified by the community.
 - Updates to the repo are described in the [history](history.md).
 
-### Reasoning summaries
-
-We are also releasing abridged summaries of the model's reasoning, covering the following results:
-
-| Manuscript | Subject |
-|---|---|
-| 0185 | [Attention Is All You Need for Nuisance Parameters](reasoning_traces/attention-is-all-you-need-for-nuisance-parameters.pdf) |
-| 0422 | [Embeddings for Free](reasoning_traces/embeddings-for-free.pdf) |
-| 0539 | [Are Mellin Moments Finite?](reasoning_traces/are-mellin-moments-finite.pdf) |
-| 0944 | [SYNERGY: Scalable Yang-Mills Neural Equivariant Robust Generative Yields](reasoning_traces/synergy-scalable-yang-mills-neural-equivariant-robust-genera.pdf) |
-| 0980 | [HYPERSCALE: Hadronic Yang-Mills Positive Energy-Weighted Renormalized Soft Collinear Attention-Based Logarithmic Emissions](reasoning_traces/hyperscale-hadronic-yang-mills-positive-energy-weighted-reno.pdf) |
-| 1617 | [The Hitchhiker's Guide to Positive Catani-Seymour Dipoles](reasoning_traces/the-hitchhikers-guide-to-positive-catani-seymour-dipoles.pdf) |
-| 1853 | [When Do Soft Drop Observables Become Logarithmically Divergent?](reasoning_traces/when-do-soft-drop-observables-become-logarithmically-diverge.pdf) |
-| 2006 | [DISRUPT: Differentiable Interpretable Sudakov-Safe Real-Virtual Unitarity-Preserving Physics-Informed Taggers](reasoning_traces/disrupt-differentiable-interpretable-sudakov-safe-real-virtu.pdf) |
-| 2093 | [A Two-Loop Message-Passing Neural Network for Signal Regions in Higgs Boson Production in Gluon Fusion](reasoning_traces/a-two-loop-message-passing-neural-network-for-signal-regions.pdf) |
-| 2164 | [Glauber Modes from Splitting Functions](reasoning_traces/glauber-modes-from-splitting-functions.pdf) |
-
 
 ## How the results were produced
 
@@ -51,3 +34,10 @@ Exceptions to this fixed procedure include work on the Hitchhiker's Guide to Pos
 We will preserve the public release history of this collection. Corrections and revisions will be recorded as new versions, with previously released versions remaining accessible. 
 
 To cite the individual manuscript, use the BibTeX block in its directory. 
+
+
+## Uses of Proprietary AI
+
+Proprietary AI model usage, unfortunately, could not be avoided. A minimal amount of Proprietary AI, namely Claude Opus 5.1, was used to assist in debugging our open-source language model. Additionally, we used Claude Opus 5.1 to assist with compilation of `tex` files. The model has assured us all files compile correctly. Approximately $0.35 worth of tokens were spent throughout this project over the course of 2 hours. Our open-source model is cheap and capable of running locally at no significant expense
+
+
